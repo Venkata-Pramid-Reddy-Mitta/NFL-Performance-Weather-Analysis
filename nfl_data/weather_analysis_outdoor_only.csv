@@ -1,0 +1,815 @@
+game_id,season,week,gameday,weekday,home_team,home_team_name,away_team,away_team_name,home_score,away_score,total_points,point_differential,temp,wind,roof,surface,stadium
+2020_01_HOU_KC,2020,1,2020-09-10,Thursday,KC,Kansas City Chiefs,HOU,Houston Texans,34,20,54,14,56.0,7.0,outdoors,grass,Arrowhead Stadium
+2020_01_CLE_BAL,2020,1,2020-09-13,Sunday,BAL,Baltimore Ravens,CLE,Cleveland Browns,38,6,44,32,76.0,5.0,outdoors,grass,M&T Bank Stadium
+2020_01_NYJ_BUF,2020,1,2020-09-13,Sunday,BUF,Buffalo Bills,NYJ,New York Jets,27,17,44,10,67.0,15.0,outdoors,astroturf,New Era Field
+2020_01_LV_CAR,2020,1,2020-09-13,Sunday,CAR,Carolina Panthers,LV,Las Vegas Raiders,30,34,64,-4,81.0,5.0,outdoors,grass,Bank of America Stadium
+2020_01_IND_JAX,2020,1,2020-09-13,Sunday,JAX,Jacksonville Jaguars,IND,Indianapolis Colts,27,20,47,7,80.0,3.0,outdoors,grass,TIAA Bank Stadium
+2020_01_MIA_NE,2020,1,2020-09-13,Sunday,NE,New England Patriots,MIA,Miami Dolphins,21,11,32,10,70.0,8.0,outdoors,grass,Gillette Stadium
+2020_01_PHI_WAS,2020,1,2020-09-13,Sunday,WAS,Washington Commanders,PHI,Philadelphia Eagles,27,17,44,10,76.0,5.0,outdoors,grass,FedExField
+2020_01_LAC_CIN,2020,1,2020-09-13,Sunday,CIN,Cincinnati Bengals,LAC,Los Angeles Chargers,13,16,29,-3,83.0,6.0,outdoors,grass,Paul Brown Stadium
+2020_01_ARI_SF,2020,1,2020-09-13,Sunday,SF,San Francisco 49ers,ARI,Arizona Cardinals,20,24,44,-4,66.0,6.0,outdoors,grass,Levi's Stadium
+2020_01_PIT_NYG,2020,1,2020-09-14,Monday,NYG,New York Giants,PIT,Pittsburgh Steelers,16,26,42,-10,71.0,5.0,outdoors,fieldturf,MetLife Stadium
+2020_01_TEN_DEN,2020,1,2020-09-14,Monday,DEN,Denver Broncos,TEN,Tennessee Titans,14,16,30,-2,79.0,10.0,outdoors,grass,Empower Field at Mile High
+2020_02_CIN_CLE,2020,2,2020-09-17,Thursday,CLE,Cleveland Browns,CIN,Cincinnati Bengals,35,30,65,5,65.0,8.0,outdoors,grass,FirstEnergy Stadium
+2020_02_NYG_CHI,2020,2,2020-09-20,Sunday,CHI,Chicago Bears,NYG,New York Giants,17,13,30,4,66.0,12.0,outdoors,grass,Soldier Field
+2020_02_DET_GB,2020,2,2020-09-20,Sunday,GB,Green Bay Packers,DET,Detroit Lions,42,21,63,21,66.0,12.0,outdoors,grass,Lambeau Field
+2020_02_BUF_MIA,2020,2,2020-09-20,Sunday,MIA,Miami Dolphins,BUF,Buffalo Bills,28,31,59,-3,90.0,5.0,outdoors,grass,Hard Rock Stadium
+2020_02_SF_NYJ,2020,2,2020-09-20,Sunday,NYJ,New York Jets,SF,San Francisco 49ers,13,31,44,-18,61.0,7.0,outdoors,fieldturf,MetLife Stadium
+2020_02_LA_PHI,2020,2,2020-09-20,Sunday,PHI,Philadelphia Eagles,LA,Los Angeles Rams,19,37,56,-18,62.0,12.0,outdoors,grass,Lincoln Financial Field
+2020_02_DEN_PIT,2020,2,2020-09-20,Sunday,PIT,Pittsburgh Steelers,DEN,Denver Broncos,26,21,47,5,64.0,5.0,outdoors,grass,Heinz Field
+2020_02_CAR_TB,2020,2,2020-09-20,Sunday,TB,Tampa Bay Buccaneers,CAR,Carolina Panthers,31,17,48,14,85.0,17.0,outdoors,grass,Raymond James Stadium
+2020_02_JAX_TEN,2020,2,2020-09-20,Sunday,TEN,Tennessee Titans,JAX,Jacksonville Jaguars,33,30,63,3,72.0,5.0,outdoors,grass,Nissan Stadium
+2020_02_NE_SEA,2020,2,2020-09-20,Sunday,SEA,Seattle Seahawks,NE,New England Patriots,35,30,65,5,70.0,5.0,outdoors,fieldturf,CenturyLink Field
+2020_03_MIA_JAX,2020,3,2020-09-24,Thursday,JAX,Jacksonville Jaguars,MIA,Miami Dolphins,13,31,44,-18,81.0,12.0,outdoors,grass,TIAA Bank Stadium
+2020_03_LA_BUF,2020,3,2020-09-27,Sunday,BUF,Buffalo Bills,LA,Los Angeles Rams,35,32,67,3,79.0,16.0,outdoors,astroturf,New Era Field
+2020_03_WAS_CLE,2020,3,2020-09-27,Sunday,CLE,Cleveland Browns,WAS,Washington Commanders,34,20,54,14,73.0,18.0,outdoors,grass,FirstEnergy Stadium
+2020_03_LV_NE,2020,3,2020-09-27,Sunday,NE,New England Patriots,LV,Las Vegas Raiders,36,20,56,16,73.0,8.0,outdoors,grass,Gillette Stadium
+2020_03_SF_NYG,2020,3,2020-09-27,Sunday,NYG,New York Giants,SF,San Francisco 49ers,9,36,45,-27,75.0,2.0,outdoors,fieldturf,MetLife Stadium
+2020_03_CIN_PHI,2020,3,2020-09-27,Sunday,PHI,Philadelphia Eagles,CIN,Cincinnati Bengals,23,23,46,0,76.0,5.0,outdoors,grass,Lincoln Financial Field
+2020_03_HOU_PIT,2020,3,2020-09-27,Sunday,PIT,Pittsburgh Steelers,HOU,Houston Texans,28,21,49,7,79.0,6.0,outdoors,grass,Heinz Field
+2020_03_TB_DEN,2020,3,2020-09-27,Sunday,DEN,Denver Broncos,TB,Tampa Bay Buccaneers,10,28,38,-18,55.0,7.0,outdoors,grass,Empower Field at Mile High
+2020_03_DAL_SEA,2020,3,2020-09-27,Sunday,SEA,Seattle Seahawks,DAL,Dallas Cowboys,38,31,69,7,63.0,3.0,outdoors,fieldturf,CenturyLink Field
+2020_03_KC_BAL,2020,3,2020-09-28,Monday,BAL,Baltimore Ravens,KC,Kansas City Chiefs,20,34,54,-14,73.0,8.0,outdoors,grass,M&T Bank Stadium
+2020_04_DEN_NYJ,2020,4,2020-10-01,Thursday,NYJ,New York Jets,DEN,Denver Broncos,28,37,65,-9,64.0,6.0,outdoors,fieldturf,MetLife Stadium
+2020_04_ARI_CAR,2020,4,2020-10-04,Sunday,CAR,Carolina Panthers,ARI,Arizona Cardinals,31,21,52,10,68.0,8.0,outdoors,grass,Bank of America Stadium
+2020_04_JAX_CIN,2020,4,2020-10-04,Sunday,CIN,Cincinnati Bengals,JAX,Jacksonville Jaguars,33,25,58,8,64.0,6.0,outdoors,grass,Paul Brown Stadium
+2020_04_SEA_MIA,2020,4,2020-10-04,Sunday,MIA,Miami Dolphins,SEA,Seattle Seahawks,23,31,54,-8,86.0,13.0,outdoors,grass,Hard Rock Stadium
+2020_04_LAC_TB,2020,4,2020-10-04,Sunday,TB,Tampa Bay Buccaneers,LAC,Los Angeles Chargers,38,31,69,7,75.0,6.0,outdoors,grass,Raymond James Stadium
+2020_04_BAL_WAS,2020,4,2020-10-04,Sunday,WAS,Washington Commanders,BAL,Baltimore Ravens,17,31,48,-14,65.0,5.0,outdoors,grass,FedExField
+2020_04_IND_CHI,2020,4,2020-10-04,Sunday,CHI,Chicago Bears,IND,Indianapolis Colts,11,19,30,-8,52.0,10.0,outdoors,grass,Soldier Field
+2020_04_PHI_SF,2020,4,2020-10-04,Sunday,SF,San Francisco 49ers,PHI,Philadelphia Eagles,20,25,45,-5,84.0,12.0,outdoors,grass,Levi's Stadium
+2020_04_NE_KC,2020,4,2020-10-05,Monday,KC,Kansas City Chiefs,NE,New England Patriots,26,10,36,16,73.0,14.0,outdoors,astroturf,Arrowhead Stadium
+2020_04_ATL_GB,2020,4,2020-10-05,Monday,GB,Green Bay Packers,ATL,Atlanta Falcons,30,16,46,14,53.0,9.0,outdoors,grass,Lambeau Field
+2020_05_TB_CHI,2020,5,2020-10-08,Thursday,CHI,Chicago Bears,TB,Tampa Bay Buccaneers,20,19,39,1,57.0,7.0,outdoors,grass,Soldier Field
+2020_05_CIN_BAL,2020,5,2020-10-11,Sunday,BAL,Baltimore Ravens,CIN,Cincinnati Bengals,27,3,30,24,69.0,3.0,outdoors,grass,M&T Bank Stadium
+2020_05_LV_KC,2020,5,2020-10-11,Sunday,KC,Kansas City Chiefs,LV,Las Vegas Raiders,32,40,72,-8,80.0,16.0,outdoors,astroturf,Arrowhead Stadium
+2020_05_ARI_NYJ,2020,5,2020-10-11,Sunday,NYJ,New York Jets,ARI,Arizona Cardinals,10,30,40,-20,64.0,8.0,outdoors,fieldturf,MetLife Stadium
+2020_05_PHI_PIT,2020,5,2020-10-11,Sunday,PIT,Pittsburgh Steelers,PHI,Philadelphia Eagles,38,29,67,9,70.0,4.0,outdoors,grass,Heinz Field
+2020_05_LA_WAS,2020,5,2020-10-11,Sunday,WAS,Washington Commanders,LA,Los Angeles Rams,10,30,40,-20,69.0,2.0,outdoors,grass,FedExField
+2020_05_MIA_SF,2020,5,2020-10-11,Sunday,SF,San Francisco 49ers,MIA,Miami Dolphins,17,43,60,-26,73.0,6.0,outdoors,grass,Levi's Stadium
+2020_05_IND_CLE,2020,5,2020-10-11,Sunday,CLE,Cleveland Browns,IND,Indianapolis Colts,32,23,55,9,64.0,16.0,outdoors,grass,FirstEnergy Stadium
+2020_05_MIN_SEA,2020,5,2020-10-11,Sunday,SEA,Seattle Seahawks,MIN,Minnesota Vikings,27,26,53,1,54.0,10.0,outdoors,fieldturf,CenturyLink Field
+2020_05_BUF_TEN,2020,5,2020-10-13,Tuesday,TEN,Tennessee Titans,BUF,Buffalo Bills,42,16,58,26,73.0,3.0,outdoors,grass,Nissan Stadium
+2020_06_CHI_CAR,2020,6,2020-10-18,Sunday,CAR,Carolina Panthers,CHI,Chicago Bears,16,23,39,-7,63.0,6.0,outdoors,grass,Bank of America Stadium
+2020_06_DET_JAX,2020,6,2020-10-18,Sunday,JAX,Jacksonville Jaguars,DET,Detroit Lions,16,34,50,-18,78.0,10.0,outdoors,grass,TIAA Bank Stadium
+2020_06_DEN_NE,2020,6,2020-10-18,Sunday,NE,New England Patriots,DEN,Denver Broncos,12,18,30,-6,58.0,7.0,outdoors,grass,Gillette Stadium
+2020_06_WAS_NYG,2020,6,2020-10-18,Sunday,NYG,New York Giants,WAS,Washington Commanders,20,19,39,1,62.0,0.0,outdoors,fieldturf,MetLife Stadium
+2020_06_BAL_PHI,2020,6,2020-10-18,Sunday,PHI,Philadelphia Eagles,BAL,Baltimore Ravens,28,30,58,-2,61.0,7.0,outdoors,grass,Lincoln Financial Field
+2020_06_CLE_PIT,2020,6,2020-10-18,Sunday,PIT,Pittsburgh Steelers,CLE,Cleveland Browns,38,7,45,31,61.0,9.0,outdoors,grass,Heinz Field
+2020_06_HOU_TEN,2020,6,2020-10-18,Sunday,TEN,Tennessee Titans,HOU,Houston Texans,42,36,78,6,61.0,10.0,outdoors,grass,Nissan Stadium
+2020_06_NYJ_MIA,2020,6,2020-10-18,Sunday,MIA,Miami Dolphins,NYJ,New York Jets,24,0,24,24,85.0,15.0,outdoors,grass,Hard Rock Stadium
+2020_06_GB_TB,2020,6,2020-10-18,Sunday,TB,Tampa Bay Buccaneers,GB,Green Bay Packers,38,10,48,28,88.0,12.0,outdoors,grass,Raymond James Stadium
+2020_06_LA_SF,2020,6,2020-10-18,Sunday,SF,San Francisco 49ers,LA,Los Angeles Rams,24,16,40,8,86.0,10.0,outdoors,grass,Levi's Stadium
+2020_06_KC_BUF,2020,6,2020-10-19,Monday,BUF,Buffalo Bills,KC,Kansas City Chiefs,17,26,43,-9,51.0,6.0,outdoors,astroturf,New Era Field
+2020_07_NYG_PHI,2020,7,2020-10-22,Thursday,PHI,Philadelphia Eagles,NYG,New York Giants,22,21,43,1,70.0,4.0,outdoors,grass,Lincoln Financial Field
+2020_07_CLE_CIN,2020,7,2020-10-25,Sunday,CIN,Cincinnati Bengals,CLE,Cleveland Browns,34,37,71,-3,48.0,8.0,outdoors,grass,Paul Brown Stadium
+2020_07_BUF_NYJ,2020,7,2020-10-25,Sunday,NYJ,New York Jets,BUF,Buffalo Bills,10,18,28,-8,52.0,8.0,outdoors,fieldturf,MetLife Stadium
+2020_07_PIT_TEN,2020,7,2020-10-25,Sunday,TEN,Tennessee Titans,PIT,Pittsburgh Steelers,24,27,51,-3,55.0,3.0,outdoors,grass,Nissan Stadium
+2020_07_DAL_WAS,2020,7,2020-10-25,Sunday,WAS,Washington Commanders,DAL,Dallas Cowboys,25,3,28,22,46.0,5.0,outdoors,grass,FedExField
+2020_07_KC_DEN,2020,7,2020-10-25,Sunday,DEN,Denver Broncos,KC,Kansas City Chiefs,16,43,59,-27,14.0,11.0,outdoors,grass,Empower Field at Mile High
+2020_07_SF_NE,2020,7,2020-10-25,Sunday,NE,New England Patriots,SF,San Francisco 49ers,6,33,39,-27,49.0,7.0,outdoors,grass,Gillette Stadium
+2020_08_ATL_CAR,2020,8,2020-10-29,Thursday,CAR,Carolina Panthers,ATL,Atlanta Falcons,17,25,42,-8,76.0,8.0,outdoors,grass,Bank of America Stadium
+2020_08_PIT_BAL,2020,8,2020-11-01,Sunday,BAL,Baltimore Ravens,PIT,Pittsburgh Steelers,24,28,52,-4,52.0,7.0,outdoors,grass,M&T Bank Stadium
+2020_08_NE_BUF,2020,8,2020-11-01,Sunday,BUF,Buffalo Bills,NE,New England Patriots,24,21,45,3,41.0,17.0,outdoors,astroturf,New Era Field
+2020_08_TEN_CIN,2020,8,2020-11-01,Sunday,CIN,Cincinnati Bengals,TEN,Tennessee Titans,31,20,51,11,48.0,24.0,outdoors,grass,Paul Brown Stadium
+2020_08_LV_CLE,2020,8,2020-11-01,Sunday,CLE,Cleveland Browns,LV,Las Vegas Raiders,6,16,22,-10,49.0,35.0,outdoors,grass,FirstEnergy Stadium
+2020_08_MIN_GB,2020,8,2020-11-01,Sunday,GB,Green Bay Packers,MIN,Minnesota Vikings,22,28,50,-6,34.0,23.0,outdoors,grass,Lambeau Field
+2020_08_NYJ_KC,2020,8,2020-11-01,Sunday,KC,Kansas City Chiefs,NYJ,New York Jets,35,9,44,26,52.0,11.0,outdoors,astroturf,Arrowhead Stadium
+2020_08_LA_MIA,2020,8,2020-11-01,Sunday,MIA,Miami Dolphins,LA,Los Angeles Rams,28,17,45,11,86.0,10.0,outdoors,grass,Hard Rock Stadium
+2020_08_LAC_DEN,2020,8,2020-11-01,Sunday,DEN,Denver Broncos,LAC,Los Angeles Chargers,31,30,61,1,64.0,10.0,outdoors,grass,Empower Field at Mile High
+2020_08_NO_CHI,2020,8,2020-11-01,Sunday,CHI,Chicago Bears,NO,New Orleans Saints,23,26,49,-3,40.0,20.0,outdoors,grass,Soldier Field
+2020_08_SF_SEA,2020,8,2020-11-01,Sunday,SEA,Seattle Seahawks,SF,San Francisco 49ers,37,27,64,10,55.0,4.0,outdoors,fieldturf,CenturyLink Field
+2020_08_DAL_PHI,2020,8,2020-11-01,Sunday,PHI,Philadelphia Eagles,DAL,Dallas Cowboys,23,9,32,14,49.0,17.0,outdoors,grass,Lincoln Financial Field
+2020_08_TB_NYG,2020,8,2020-11-02,Monday,NYG,New York Giants,TB,Tampa Bay Buccaneers,23,25,48,-2,39.0,8.0,outdoors,fieldturf,MetLife Stadium
+2020_09_GB_SF,2020,9,2020-11-05,Thursday,SF,San Francisco 49ers,GB,Green Bay Packers,17,34,51,-17,78.0,5.0,outdoors,grass,Levi's Stadium
+2020_09_SEA_BUF,2020,9,2020-11-08,Sunday,BUF,Buffalo Bills,SEA,Seattle Seahawks,44,34,78,10,69.0,4.0,outdoors,astroturf,New Era Field
+2020_09_HOU_JAX,2020,9,2020-11-08,Sunday,JAX,Jacksonville Jaguars,HOU,Houston Texans,25,27,52,-2,79.0,14.0,outdoors,grass,TIAA Bank Stadium
+2020_09_CAR_KC,2020,9,2020-11-08,Sunday,KC,Kansas City Chiefs,CAR,Carolina Panthers,33,31,64,2,71.0,19.0,outdoors,astroturf,Arrowhead Stadium
+2020_09_CHI_TEN,2020,9,2020-11-08,Sunday,TEN,Tennessee Titans,CHI,Chicago Bears,24,17,41,7,77.0,14.0,outdoors,grass,Nissan Stadium
+2020_09_NYG_WAS,2020,9,2020-11-08,Sunday,WAS,Washington Commanders,NYG,New York Giants,20,23,43,-3,75.0,1.0,outdoors,grass,FedExField
+2020_09_NO_TB,2020,9,2020-11-08,Sunday,TB,Tampa Bay Buccaneers,NO,New Orleans Saints,3,38,41,-35,77.0,17.0,outdoors,grass,Raymond James Stadium
+2020_09_NE_NYJ,2020,9,2020-11-09,Monday,NYJ,New York Jets,NE,New England Patriots,27,30,57,-3,61.0,2.0,outdoors,fieldturf,MetLife Stadium
+2020_10_IND_TEN,2020,10,2020-11-12,Thursday,TEN,Tennessee Titans,IND,Indianapolis Colts,17,34,51,-17,56.0,6.0,outdoors,grass,Nissan Stadium
+2020_10_TB_CAR,2020,10,2020-11-15,Sunday,CAR,Carolina Panthers,TB,Tampa Bay Buccaneers,23,46,69,-23,65.0,15.0,outdoors,grass,Bank of America Stadium
+2020_10_HOU_CLE,2020,10,2020-11-15,Sunday,CLE,Cleveland Browns,HOU,Houston Texans,10,7,17,3,59.0,25.0,outdoors,grass,FirstEnergy Stadium
+2020_10_JAX_GB,2020,10,2020-11-15,Sunday,GB,Green Bay Packers,JAX,Jacksonville Jaguars,24,20,44,4,38.0,23.0,outdoors,grass,Lambeau Field
+2020_10_PHI_NYG,2020,10,2020-11-15,Sunday,NYG,New York Giants,PHI,Philadelphia Eagles,27,17,44,10,56.0,18.0,outdoors,fieldturf,MetLife Stadium
+2020_10_LAC_MIA,2020,10,2020-11-15,Sunday,MIA,Miami Dolphins,LAC,Los Angeles Chargers,29,21,50,8,83.0,7.0,outdoors,grass,Hard Rock Stadium
+2020_10_CIN_PIT,2020,10,2020-11-15,Sunday,PIT,Pittsburgh Steelers,CIN,Cincinnati Bengals,36,10,46,26,52.0,21.0,outdoors,grass,Heinz Field
+2020_10_BAL_NE,2020,10,2020-11-15,Sunday,NE,New England Patriots,BAL,Baltimore Ravens,23,17,40,6,52.0,13.0,outdoors,grass,Gillette Stadium
+2020_10_MIN_CHI,2020,10,2020-11-16,Monday,CHI,Chicago Bears,MIN,Minnesota Vikings,13,19,32,-6,44.0,11.0,outdoors,grass,Soldier Field
+2020_11_ARI_SEA,2020,11,2020-11-19,Thursday,SEA,Seattle Seahawks,ARI,Arizona Cardinals,28,21,49,7,48.0,11.0,outdoors,fieldturf,Lumen Field
+2020_11_TEN_BAL,2020,11,2020-11-22,Sunday,BAL,Baltimore Ravens,TEN,Tennessee Titans,24,30,54,-6,53.0,6.0,outdoors,grass,M&T Bank Stadium
+2020_11_DET_CAR,2020,11,2020-11-22,Sunday,CAR,Carolina Panthers,DET,Detroit Lions,20,0,20,20,65.0,7.0,outdoors,grass,Bank of America Stadium
+2020_11_PHI_CLE,2020,11,2020-11-22,Sunday,CLE,Cleveland Browns,PHI,Philadelphia Eagles,22,17,39,5,38.0,8.0,outdoors,grass,FirstEnergy Stadium
+2020_11_PIT_JAX,2020,11,2020-11-22,Sunday,JAX,Jacksonville Jaguars,PIT,Pittsburgh Steelers,3,27,30,-24,72.0,3.0,outdoors,grass,TIAA Bank Stadium
+2020_11_CIN_WAS,2020,11,2020-11-22,Sunday,WAS,Washington Commanders,CIN,Cincinnati Bengals,20,9,29,11,57.0,7.0,outdoors,grass,FedExField
+2020_11_MIA_DEN,2020,11,2020-11-22,Sunday,DEN,Denver Broncos,MIA,Miami Dolphins,20,13,33,7,45.0,7.0,outdoors,grass,Empower Field at Mile High
+2020_11_LA_TB,2020,11,2020-11-23,Monday,TB,Tampa Bay Buccaneers,LA,Los Angeles Rams,24,27,51,-3,69.0,5.0,outdoors,grass,Raymond James Stadium
+2020_12_LAC_BUF,2020,12,2020-11-29,Sunday,BUF,Buffalo Bills,LAC,Los Angeles Chargers,27,17,44,10,48.0,7.0,outdoors,astroturf,New Era Field
+2020_12_NYG_CIN,2020,12,2020-11-29,Sunday,CIN,Cincinnati Bengals,NYG,New York Giants,17,19,36,-2,52.0,4.0,outdoors,grass,Paul Brown Stadium
+2020_12_CLE_JAX,2020,12,2020-11-29,Sunday,JAX,Jacksonville Jaguars,CLE,Cleveland Browns,25,27,52,-2,70.0,1.0,outdoors,grass,TIAA Bank Stadium
+2020_12_ARI_NE,2020,12,2020-11-29,Sunday,NE,New England Patriots,ARI,Arizona Cardinals,20,17,37,3,52.0,8.0,outdoors,grass,Gillette Stadium
+2020_12_MIA_NYJ,2020,12,2020-11-29,Sunday,NYJ,New York Jets,MIA,Miami Dolphins,3,20,23,-17,54.0,2.0,outdoors,fieldturf,MetLife Stadium
+2020_12_NO_DEN,2020,12,2020-11-29,Sunday,DEN,Denver Broncos,NO,New Orleans Saints,3,31,34,-28,38.0,6.0,outdoors,grass,Empower Field at Mile High
+2020_12_KC_TB,2020,12,2020-11-29,Sunday,TB,Tampa Bay Buccaneers,KC,Kansas City Chiefs,24,27,51,-3,81.0,5.0,outdoors,grass,Raymond James Stadium
+2020_12_CHI_GB,2020,12,2020-11-29,Sunday,GB,Green Bay Packers,CHI,Chicago Bears,41,25,66,16,37.0,13.0,outdoors,grass,Lambeau Field
+2020_12_SEA_PHI,2020,12,2020-11-30,Monday,PHI,Philadelphia Eagles,SEA,Seattle Seahawks,17,23,40,-6,60.0,16.0,outdoors,grass,Lincoln Financial Field
+2020_12_BAL_PIT,2020,12,2020-12-02,Wednesday,PIT,Pittsburgh Steelers,BAL,Baltimore Ravens,19,14,33,5,36.0,14.0,outdoors,grass,Heinz Field
+2020_13_DET_CHI,2020,13,2020-12-06,Sunday,CHI,Chicago Bears,DET,Detroit Lions,30,34,64,-4,35.0,5.0,outdoors,grass,Soldier Field
+2020_13_CIN_MIA,2020,13,2020-12-06,Sunday,MIA,Miami Dolphins,CIN,Cincinnati Bengals,19,7,26,12,81.0,5.0,outdoors,grass,Hard Rock Stadium
+2020_13_LV_NYJ,2020,13,2020-12-06,Sunday,NYJ,New York Jets,LV,Las Vegas Raiders,28,31,59,-3,39.0,18.0,outdoors,fieldturf,MetLife Stadium
+2020_13_CLE_TEN,2020,13,2020-12-06,Sunday,TEN,Tennessee Titans,CLE,Cleveland Browns,35,41,76,-6,52.0,1.0,outdoors,grass,Nissan Stadium
+2020_13_NYG_SEA,2020,13,2020-12-06,Sunday,SEA,Seattle Seahawks,NYG,New York Giants,12,17,29,-5,51.0,4.0,outdoors,fieldturf,Lumen Field
+2020_13_PHI_GB,2020,13,2020-12-06,Sunday,GB,Green Bay Packers,PHI,Philadelphia Eagles,30,16,46,14,34.0,9.0,outdoors,grass,Lambeau Field
+2020_13_DEN_KC,2020,13,2020-12-06,Sunday,KC,Kansas City Chiefs,DEN,Denver Broncos,22,16,38,6,41.0,9.0,outdoors,astroturf,Arrowhead Stadium
+2020_13_WAS_PIT,2020,13,2020-12-07,Monday,PIT,Pittsburgh Steelers,WAS,Washington Commanders,17,23,40,-6,34.0,10.0,outdoors,grass,Heinz Field
+2020_13_DAL_BAL,2020,13,2020-12-08,Tuesday,BAL,Baltimore Ravens,DAL,Dallas Cowboys,34,17,51,17,38.0,9.0,outdoors,grass,M&T Bank Stadium
+2020_14_DEN_CAR,2020,14,2020-12-13,Sunday,CAR,Carolina Panthers,DEN,Denver Broncos,27,32,59,-5,70.0,7.0,outdoors,grass,Bank of America Stadium
+2020_14_HOU_CHI,2020,14,2020-12-13,Sunday,CHI,Chicago Bears,HOU,Houston Texans,36,7,43,29,34.0,1.0,outdoors,grass,Soldier Field
+2020_14_DAL_CIN,2020,14,2020-12-13,Sunday,CIN,Cincinnati Bengals,DAL,Dallas Cowboys,7,30,37,-23,44.0,5.0,outdoors,grass,Paul Brown Stadium
+2020_14_TEN_JAX,2020,14,2020-12-13,Sunday,JAX,Jacksonville Jaguars,TEN,Tennessee Titans,10,31,41,-21,69.0,2.0,outdoors,grass,TIAA Bank Stadium
+2020_14_KC_MIA,2020,14,2020-12-13,Sunday,MIA,Miami Dolphins,KC,Kansas City Chiefs,27,33,60,-6,81.0,8.0,outdoors,grass,Hard Rock Stadium
+2020_14_ARI_NYG,2020,14,2020-12-13,Sunday,NYG,New York Giants,ARI,Arizona Cardinals,7,26,33,-19,59.0,15.0,outdoors,fieldturf,MetLife Stadium
+2020_14_MIN_TB,2020,14,2020-12-13,Sunday,TB,Tampa Bay Buccaneers,MIN,Minnesota Vikings,26,14,40,12,78.0,5.0,outdoors,grass,Raymond James Stadium
+2020_14_NYJ_SEA,2020,14,2020-12-13,Sunday,SEA,Seattle Seahawks,NYJ,New York Jets,40,3,43,37,43.0,8.0,outdoors,fieldturf,Lumen Field
+2020_14_NO_PHI,2020,14,2020-12-13,Sunday,PHI,Philadelphia Eagles,NO,New Orleans Saints,24,21,45,3,57.0,10.0,outdoors,grass,Lincoln Financial Field
+2020_14_PIT_BUF,2020,14,2020-12-13,Sunday,BUF,Buffalo Bills,PIT,Pittsburgh Steelers,26,15,41,11,35.0,11.0,outdoors,astroturf,New Era Field
+2020_14_BAL_CLE,2020,14,2020-12-14,Monday,CLE,Cleveland Browns,BAL,Baltimore Ravens,42,47,89,-5,34.0,18.0,outdoors,grass,FirstEnergy Stadium
+2020_15_BUF_DEN,2020,15,2020-12-19,Saturday,DEN,Denver Broncos,BUF,Buffalo Bills,19,48,67,-29,47.0,24.0,outdoors,grass,Empower Field at Mile High
+2020_15_CAR_GB,2020,15,2020-12-19,Saturday,GB,Green Bay Packers,CAR,Carolina Panthers,24,16,40,8,33.0,5.0,outdoors,grass,Lambeau Field
+2020_15_JAX_BAL,2020,15,2020-12-20,Sunday,BAL,Baltimore Ravens,JAX,Jacksonville Jaguars,40,14,54,26,39.0,3.0,outdoors,grass,M&T Bank Stadium
+2020_15_NE_MIA,2020,15,2020-12-20,Sunday,MIA,Miami Dolphins,NE,New England Patriots,22,12,34,10,79.0,9.0,outdoors,grass,Hard Rock Stadium
+2020_15_DET_TEN,2020,15,2020-12-20,Sunday,TEN,Tennessee Titans,DET,Detroit Lions,46,25,71,21,46.0,5.0,outdoors,grass,Nissan Stadium
+2020_15_SEA_WAS,2020,15,2020-12-20,Sunday,WAS,Washington Commanders,SEA,Seattle Seahawks,15,20,35,-5,43.0,8.0,outdoors,grass,FedExField
+2020_15_CLE_NYG,2020,15,2020-12-20,Sunday,NYG,New York Giants,CLE,Cleveland Browns,6,20,26,-14,36.0,0.0,outdoors,fieldturf,MetLife Stadium
+2020_15_PIT_CIN,2020,15,2020-12-21,Monday,CIN,Cincinnati Bengals,PIT,Pittsburgh Steelers,27,17,44,10,43.0,10.0,outdoors,grass,Paul Brown Stadium
+2020_16_NYG_BAL,2020,16,2020-12-27,Sunday,BAL,Baltimore Ravens,NYG,New York Giants,27,13,40,14,38.0,3.0,outdoors,grass,M&T Bank Stadium
+2020_16_CHI_JAX,2020,16,2020-12-27,Sunday,JAX,Jacksonville Jaguars,CHI,Chicago Bears,17,41,58,-24,55.0,5.0,outdoors,grass,TIAA Bank Stadium
+2020_16_ATL_KC,2020,16,2020-12-27,Sunday,KC,Kansas City Chiefs,ATL,Atlanta Falcons,17,14,31,3,49.0,8.0,outdoors,astroturf,Arrowhead Stadium
+2020_16_CLE_NYJ,2020,16,2020-12-27,Sunday,NYJ,New York Jets,CLE,Cleveland Browns,23,16,39,7,37.0,5.0,outdoors,fieldturf,MetLife Stadium
+2020_16_IND_PIT,2020,16,2020-12-27,Sunday,PIT,Pittsburgh Steelers,IND,Indianapolis Colts,28,24,52,4,37.0,6.0,outdoors,grass,Heinz Field
+2020_16_CAR_WAS,2020,16,2020-12-27,Sunday,WAS,Washington Commanders,CAR,Carolina Panthers,13,20,33,-7,41.0,6.0,outdoors,grass,FedExField
+2020_16_LA_SEA,2020,16,2020-12-27,Sunday,SEA,Seattle Seahawks,LA,Los Angeles Rams,20,9,29,11,45.0,2.0,outdoors,fieldturf,Lumen Field
+2020_16_TEN_GB,2020,16,2020-12-27,Sunday,GB,Green Bay Packers,TEN,Tennessee Titans,40,14,54,26,28.0,15.0,outdoors,grass,Lambeau Field
+2020_16_BUF_NE,2020,16,2020-12-28,Monday,NE,New England Patriots,BUF,Buffalo Bills,9,38,47,-29,41.0,4.0,outdoors,grass,Gillette Stadium
+2020_17_MIA_BUF,2020,17,2021-01-03,Sunday,BUF,Buffalo Bills,MIA,Miami Dolphins,56,26,82,30,35.0,1.0,outdoors,astroturf,New Era Field
+2020_17_BAL_CIN,2020,17,2021-01-03,Sunday,CIN,Cincinnati Bengals,BAL,Baltimore Ravens,3,38,41,-35,39.0,10.0,outdoors,grass,Paul Brown Stadium
+2020_17_PIT_CLE,2020,17,2021-01-03,Sunday,CLE,Cleveland Browns,PIT,Pittsburgh Steelers,24,22,46,2,38.0,7.0,outdoors,grass,FirstEnergy Stadium
+2020_17_NYJ_NE,2020,17,2021-01-03,Sunday,NE,New England Patriots,NYJ,New York Jets,28,14,42,14,33.0,5.0,outdoors,grass,Gillette Stadium
+2020_17_DAL_NYG,2020,17,2021-01-03,Sunday,NYG,New York Giants,DAL,Dallas Cowboys,23,19,42,4,33.0,6.0,outdoors,fieldturf,MetLife Stadium
+2020_17_ATL_TB,2020,17,2021-01-03,Sunday,TB,Tampa Bay Buccaneers,ATL,Atlanta Falcons,44,27,71,17,65.0,4.0,outdoors,grass,Raymond James Stadium
+2020_17_NO_CAR,2020,17,2021-01-03,Sunday,CAR,Carolina Panthers,NO,New Orleans Saints,7,33,40,-26,57.0,2.0,outdoors,grass,Bank of America Stadium
+2020_17_GB_CHI,2020,17,2021-01-03,Sunday,CHI,Chicago Bears,GB,Green Bay Packers,16,35,51,-19,32.0,7.0,outdoors,grass,Soldier Field
+2020_17_LV_DEN,2020,17,2021-01-03,Sunday,DEN,Denver Broncos,LV,Las Vegas Raiders,31,32,63,-1,53.0,10.0,outdoors,grass,Empower Field at Mile High
+2020_17_LAC_KC,2020,17,2021-01-03,Sunday,KC,Kansas City Chiefs,LAC,Los Angeles Chargers,21,38,59,-17,35.0,6.0,outdoors,astroturf,Arrowhead Stadium
+2020_17_WAS_PHI,2020,17,2021-01-03,Sunday,PHI,Philadelphia Eagles,WAS,Washington Commanders,14,20,34,-6,38.0,10.0,outdoors,grass,Lincoln Financial Field
+2020_18_IND_BUF,2020,18,2021-01-09,Saturday,BUF,Buffalo Bills,IND,Indianapolis Colts,27,24,51,3,34.0,6.0,outdoors,astroturf,New Era Field
+2020_18_LA_SEA,2020,18,2021-01-09,Saturday,SEA,Seattle Seahawks,LA,Los Angeles Rams,20,30,50,-10,39.0,1.0,outdoors,fieldturf,Lumen Field
+2020_18_TB_WAS,2020,18,2021-01-09,Saturday,WAS,Washington Commanders,TB,Tampa Bay Buccaneers,23,31,54,-8,40.0,10.0,outdoors,grass,FedExField
+2020_18_BAL_TEN,2020,18,2021-01-10,Sunday,TEN,Tennessee Titans,BAL,Baltimore Ravens,13,20,33,-7,33.0,1.0,outdoors,grass,Nissan Stadium
+2020_18_CLE_PIT,2020,18,2021-01-10,Sunday,PIT,Pittsburgh Steelers,CLE,Cleveland Browns,37,48,85,-11,34.0,1.0,outdoors,grass,Heinz Field
+2020_19_LA_GB,2020,19,2021-01-16,Saturday,GB,Green Bay Packers,LA,Los Angeles Rams,32,18,50,14,35.0,13.0,outdoors,grass,Lambeau Field
+2020_19_BAL_BUF,2020,19,2021-01-16,Saturday,BUF,Buffalo Bills,BAL,Baltimore Ravens,17,3,20,14,34.0,13.0,outdoors,astroturf,New Era Field
+2020_19_CLE_KC,2020,19,2021-01-17,Sunday,KC,Kansas City Chiefs,CLE,Cleveland Browns,22,17,39,5,40.0,13.0,outdoors,astroturf,Arrowhead Stadium
+2020_20_TB_GB,2020,20,2021-01-24,Sunday,GB,Green Bay Packers,TB,Tampa Bay Buccaneers,26,31,57,-5,29.0,10.0,outdoors,grass,Lambeau Field
+2020_20_BUF_KC,2020,20,2021-01-24,Sunday,KC,Kansas City Chiefs,BUF,Buffalo Bills,38,24,62,14,40.0,7.0,outdoors,astroturf,Arrowhead Stadium
+2020_21_KC_TB,2020,21,2021-02-07,Sunday,TB,Tampa Bay Buccaneers,KC,Kansas City Chiefs,31,9,40,22,63.0,9.0,outdoors,grass,Raymond James Stadium
+2021_01_DAL_TB,2021,1,2021-09-09,Thursday,TB,Tampa Bay Buccaneers,DAL,Dallas Cowboys,31,29,60,2,82.0,9.0,outdoors,grass ,Raymond James Stadium
+2021_01_PIT_BUF,2021,1,2021-09-12,Sunday,BUF,Buffalo Bills,PIT,Pittsburgh Steelers,16,23,39,-7,73.0,17.0,outdoors,a_turf,New Era Field
+2021_01_NYJ_CAR,2021,1,2021-09-12,Sunday,CAR,Carolina Panthers,NYJ,New York Jets,19,14,33,5,81.0,0.0,outdoors,grass ,Bank of America Stadium
+2021_01_MIN_CIN,2021,1,2021-09-12,Sunday,CIN,Cincinnati Bengals,MIN,Minnesota Vikings,27,24,51,3,81.0,15.0,outdoors,fieldturf,Paul Brown Stadium
+2021_01_ARI_TEN,2021,1,2021-09-12,Sunday,TEN,Tennessee Titans,ARI,Arizona Cardinals,13,38,51,-25,82.0,8.0,outdoors,grass ,Nissan Stadium
+2021_01_LAC_WAS,2021,1,2021-09-12,Sunday,WAS,Washington Commanders,LAC,Los Angeles Chargers,16,20,36,-4,81.0,4.0,outdoors,grass ,FedExField
+2021_01_CLE_KC,2021,1,2021-09-12,Sunday,KC,Kansas City Chiefs,CLE,Cleveland Browns,33,29,62,4,88.0,8.0,outdoors,grass ,GEHA Field at Arrowhead Stadium
+2021_01_MIA_NE,2021,1,2021-09-12,Sunday,NE,New England Patriots,MIA,Miami Dolphins,16,17,33,-1,81.0,15.0,outdoors,fieldturf,Gillette Stadium
+2021_01_GB_NO,2021,1,2021-09-12,Sunday,NO,New Orleans Saints,GB,Green Bay Packers,38,3,41,35,86.0,9.0,outdoors,grass ,TIAA Bank Stadium
+2021_01_DEN_NYG,2021,1,2021-09-12,Sunday,NYG,New York Giants,DEN,Denver Broncos,13,27,40,-14,82.0,19.0,outdoors,fieldturf,MetLife Stadium
+2021_02_NYG_WAS,2021,2,2021-09-16,Thursday,WAS,Washington Commanders,NYG,New York Giants,30,29,59,1,71.0,0.0,outdoors,grass ,FedExField
+2021_02_NO_CAR,2021,2,2021-09-19,Sunday,CAR,Carolina Panthers,NO,New Orleans Saints,26,7,33,19,83.0,4.0,outdoors,grass ,Bank of America Stadium
+2021_02_CIN_CHI,2021,2,2021-09-19,Sunday,CHI,Chicago Bears,CIN,Cincinnati Bengals,20,17,37,3,80.0,0.0,outdoors,grass ,Soldier Field
+2021_02_HOU_CLE,2021,2,2021-09-19,Sunday,CLE,Cleveland Browns,HOU,Houston Texans,31,21,52,10,75.0,12.0,outdoors,grass ,FirstEnergy Stadium
+2021_02_DEN_JAX,2021,2,2021-09-19,Sunday,JAX,Jacksonville Jaguars,DEN,Denver Broncos,13,23,36,-10,80.0,7.0,outdoors,grass ,TIAA Bank Stadium
+2021_02_BUF_MIA,2021,2,2021-09-19,Sunday,MIA,Miami Dolphins,BUF,Buffalo Bills,0,35,35,-35,89.0,7.0,outdoors,grass ,Hard Rock Stadium
+2021_02_NE_NYJ,2021,2,2021-09-19,Sunday,NYJ,New York Jets,NE,New England Patriots,6,25,31,-19,72.0,13.0,outdoors,fieldturf,MetLife Stadium
+2021_02_SF_PHI,2021,2,2021-09-19,Sunday,PHI,Philadelphia Eagles,SF,San Francisco 49ers,11,17,28,-6,76.0,13.0,outdoors,grass ,Lincoln Financial Field
+2021_02_LV_PIT,2021,2,2021-09-19,Sunday,PIT,Pittsburgh Steelers,LV,Las Vegas Raiders,17,26,43,-9,77.0,4.0,outdoors,grass ,Heinz Field
+2021_02_ATL_TB,2021,2,2021-09-19,Sunday,TB,Tampa Bay Buccaneers,ATL,Atlanta Falcons,48,25,73,23,85.0,0.0,outdoors,grass ,Raymond James Stadium
+2021_02_TEN_SEA,2021,2,2021-09-19,Sunday,SEA,Seattle Seahawks,TEN,Tennessee Titans,30,33,63,-3,62.0,14.0,outdoors,fieldturf,Lumen Field
+2021_02_KC_BAL,2021,2,2021-09-19,Sunday,BAL,Baltimore Ravens,KC,Kansas City Chiefs,36,35,71,1,82.0,8.0,outdoors,grass,M&T Bank Stadium
+2021_02_DET_GB,2021,2,2021-09-20,Monday,GB,Green Bay Packers,DET,Detroit Lions,35,17,52,18,73.0,12.0,outdoors,grass ,Lambeau Field
+2021_03_WAS_BUF,2021,3,2021-09-26,Sunday,BUF,Buffalo Bills,WAS,Washington Commanders,43,21,64,22,67.0,21.0,outdoors,a_turf,New Era Field
+2021_03_CHI_CLE,2021,3,2021-09-26,Sunday,CLE,Cleveland Browns,CHI,Chicago Bears,26,6,32,20,70.0,22.0,outdoors,grass ,FirstEnergy Stadium
+2021_03_ARI_JAX,2021,3,2021-09-26,Sunday,JAX,Jacksonville Jaguars,ARI,Arizona Cardinals,19,31,50,-12,81.0,4.0,outdoors,grass ,TIAA Bank Stadium
+2021_03_LAC_KC,2021,3,2021-09-26,Sunday,KC,Kansas City Chiefs,LAC,Los Angeles Chargers,24,30,54,-6,81.0,19.0,outdoors,grass ,GEHA Field at Arrowhead Stadium
+2021_03_NO_NE,2021,3,2021-09-26,Sunday,NE,New England Patriots,NO,New Orleans Saints,13,28,41,-15,73.0,11.0,outdoors,fieldturf,Gillette Stadium
+2021_03_ATL_NYG,2021,3,2021-09-26,Sunday,NYG,New York Giants,ATL,Atlanta Falcons,14,17,31,-3,69.0,13.0,outdoors,fieldturf,MetLife Stadium
+2021_03_CIN_PIT,2021,3,2021-09-26,Sunday,PIT,Pittsburgh Steelers,CIN,Cincinnati Bengals,10,24,34,-14,67.0,9.0,outdoors,grass ,Heinz Field
+2021_03_IND_TEN,2021,3,2021-09-26,Sunday,TEN,Tennessee Titans,IND,Indianapolis Colts,25,16,41,9,72.0,4.0,outdoors,grass ,Nissan Stadium
+2021_03_NYJ_DEN,2021,3,2021-09-26,Sunday,DEN,Denver Broncos,NYJ,New York Jets,26,0,26,26,82.0,6.0,outdoors,grass ,Empower Field at Mile High
+2021_03_GB_SF,2021,3,2021-09-26,Sunday,SF,San Francisco 49ers,GB,Green Bay Packers,28,30,58,-2,69.0,15.0,outdoors,grass,Levi's Stadium
+2021_04_JAX_CIN,2021,4,2021-09-30,Thursday,CIN,Cincinnati Bengals,JAX,Jacksonville Jaguars,24,21,45,3,65.0,0.0,outdoors,fieldturf,Paul Brown Stadium
+2021_04_HOU_BUF,2021,4,2021-10-03,Sunday,BUF,Buffalo Bills,HOU,Houston Texans,40,0,40,40,67.0,12.0,outdoors,a_turf,New Era Field
+2021_04_DET_CHI,2021,4,2021-10-03,Sunday,CHI,Chicago Bears,DET,Detroit Lions,24,14,38,10,72.0,4.0,outdoors,grass ,Soldier Field
+2021_04_IND_MIA,2021,4,2021-10-03,Sunday,MIA,Miami Dolphins,IND,Indianapolis Colts,17,27,44,-10,85.0,16.0,outdoors,grass ,Hard Rock Stadium
+2021_04_TEN_NYJ,2021,4,2021-10-03,Sunday,NYJ,New York Jets,TEN,Tennessee Titans,27,24,51,3,78.0,9.0,outdoors,fieldturf,MetLife Stadium
+2021_04_KC_PHI,2021,4,2021-10-03,Sunday,PHI,Philadelphia Eagles,KC,Kansas City Chiefs,30,42,72,-12,73.0,8.0,outdoors,grass ,Lincoln Financial Field
+2021_04_SEA_SF,2021,4,2021-10-03,Sunday,SF,San Francisco 49ers,SEA,Seattle Seahawks,21,28,49,-7,80.0,0.0,outdoors,grass,Levi's Stadium
+2021_04_BAL_DEN,2021,4,2021-10-03,Sunday,DEN,Denver Broncos,BAL,Baltimore Ravens,7,23,30,-16,77.0,11.0,outdoors,grass ,Empower Field at Mile High
+2021_04_PIT_GB,2021,4,2021-10-03,Sunday,GB,Green Bay Packers,PIT,Pittsburgh Steelers,27,17,44,10,67.0,4.0,outdoors,grass ,Lambeau Field
+2021_04_TB_NE,2021,4,2021-10-03,Sunday,NE,New England Patriots,TB,Tampa Bay Buccaneers,17,19,36,-2,62.0,4.0,outdoors,fieldturf,Gillette Stadium
+2021_05_LA_SEA,2021,5,2021-10-07,Thursday,SEA,Seattle Seahawks,LA,Los Angeles Rams,17,26,43,-9,56.0,8.0,outdoors,fieldturf,Lumen Field
+2021_05_NYJ_ATL,2021,5,2021-10-10,Sunday,ATL,Atlanta Falcons,NYJ,New York Jets,27,20,47,7,63.0,8.0,outdoors,grass,Tottenham Stadium
+2021_05_PHI_CAR,2021,5,2021-10-10,Sunday,CAR,Carolina Panthers,PHI,Philadelphia Eagles,18,21,39,-3,76.0,13.0,outdoors,grass ,Bank of America Stadium
+2021_05_GB_CIN,2021,5,2021-10-10,Sunday,CIN,Cincinnati Bengals,GB,Green Bay Packers,22,25,47,-3,76.0,12.0,outdoors,fieldturf,Paul Brown Stadium
+2021_05_TEN_JAX,2021,5,2021-10-10,Sunday,JAX,Jacksonville Jaguars,TEN,Tennessee Titans,19,37,56,-18,78.0,11.0,outdoors,grass ,TIAA Bank Stadium
+2021_05_DEN_PIT,2021,5,2021-10-10,Sunday,PIT,Pittsburgh Steelers,DEN,Denver Broncos,27,19,46,8,71.0,9.0,outdoors,grass ,Heinz Field
+2021_05_MIA_TB,2021,5,2021-10-10,Sunday,TB,Tampa Bay Buccaneers,MIA,Miami Dolphins,45,17,62,28,84.0,7.0,outdoors,grass ,Raymond James Stadium
+2021_05_NO_WAS,2021,5,2021-10-10,Sunday,WAS,Washington Commanders,NO,New Orleans Saints,22,33,55,-11,70.0,12.0,outdoors,grass ,FedExField
+2021_05_BUF_KC,2021,5,2021-10-10,Sunday,KC,Kansas City Chiefs,BUF,Buffalo Bills,20,38,58,-18,76.0,0.0,outdoors,grass ,GEHA Field at Arrowhead Stadium
+2021_05_IND_BAL,2021,5,2021-10-11,Monday,BAL,Baltimore Ravens,IND,Indianapolis Colts,31,25,56,6,69.0,6.0,outdoors,grass,M&T Bank Stadium
+2021_06_TB_PHI,2021,6,2021-10-14,Thursday,PHI,Philadelphia Eagles,TB,Tampa Bay Buccaneers,22,28,50,-6,74.0,8.0,outdoors,grass ,Lincoln Financial Field
+2021_06_MIA_JAX,2021,6,2021-10-17,Sunday,JAX,Jacksonville Jaguars,MIA,Miami Dolphins,23,20,43,3,63.0,11.0,outdoors,grass,Tottenham Stadium
+2021_06_LAC_BAL,2021,6,2021-10-17,Sunday,BAL,Baltimore Ravens,LAC,Los Angeles Chargers,34,6,40,28,63.0,15.0,outdoors,grass,M&T Bank Stadium
+2021_06_MIN_CAR,2021,6,2021-10-17,Sunday,CAR,Carolina Panthers,MIN,Minnesota Vikings,28,34,62,-6,62.0,7.0,outdoors,grass ,Bank of America Stadium
+2021_06_GB_CHI,2021,6,2021-10-17,Sunday,CHI,Chicago Bears,GB,Green Bay Packers,14,24,38,-10,59.0,6.0,outdoors,grass ,Soldier Field
+2021_06_LA_NYG,2021,6,2021-10-17,Sunday,NYG,New York Giants,LA,Los Angeles Rams,11,38,49,-27,61.0,13.0,outdoors,fieldturf,MetLife Stadium
+2021_06_KC_WAS,2021,6,2021-10-17,Sunday,WAS,Washington Commanders,KC,Kansas City Chiefs,13,31,44,-18,62.0,13.0,outdoors,grass ,FedExField
+2021_06_ARI_CLE,2021,6,2021-10-17,Sunday,CLE,Cleveland Browns,ARI,Arizona Cardinals,14,37,51,-23,58.0,23.0,outdoors,grass ,FirstEnergy Stadium
+2021_06_LV_DEN,2021,6,2021-10-17,Sunday,DEN,Denver Broncos,LV,Las Vegas Raiders,24,34,58,-10,76.0,8.0,outdoors,grass ,Empower Field at Mile High
+2021_06_DAL_NE,2021,6,2021-10-17,Sunday,NE,New England Patriots,DAL,Dallas Cowboys,29,35,64,-6,62.0,11.0,outdoors,fieldturf,Gillette Stadium
+2021_06_SEA_PIT,2021,6,2021-10-17,Sunday,PIT,Pittsburgh Steelers,SEA,Seattle Seahawks,23,20,43,3,49.0,6.0,outdoors,grass ,Heinz Field
+2021_06_BUF_TEN,2021,6,2021-10-18,Monday,TEN,Tennessee Titans,BUF,Buffalo Bills,34,31,65,3,66.0,6.0,outdoors,grass ,Nissan Stadium
+2021_07_DEN_CLE,2021,7,2021-10-21,Thursday,CLE,Cleveland Browns,DEN,Denver Broncos,17,14,31,3,59.0,27.0,outdoors,grass ,FirstEnergy Stadium
+2021_07_CIN_BAL,2021,7,2021-10-24,Sunday,BAL,Baltimore Ravens,CIN,Cincinnati Bengals,17,41,58,-24,61.0,6.0,outdoors,grass,M&T Bank Stadium
+2021_07_WAS_GB,2021,7,2021-10-24,Sunday,GB,Green Bay Packers,WAS,Washington Commanders,24,10,34,14,49.0,11.0,outdoors,grass ,Lambeau Field
+2021_07_ATL_MIA,2021,7,2021-10-24,Sunday,MIA,Miami Dolphins,ATL,Atlanta Falcons,28,30,58,-2,85.0,9.0,outdoors,grass ,Hard Rock Stadium
+2021_07_NYJ_NE,2021,7,2021-10-24,Sunday,NE,New England Patriots,NYJ,New York Jets,54,13,67,41,52.0,0.0,outdoors,fieldturf,Gillette Stadium
+2021_07_CAR_NYG,2021,7,2021-10-24,Sunday,NYG,New York Giants,CAR,Carolina Panthers,25,3,28,22,57.0,0.0,outdoors,fieldturf,MetLife Stadium
+2021_07_KC_TEN,2021,7,2021-10-24,Sunday,TEN,Tennessee Titans,KC,Kansas City Chiefs,27,3,30,24,74.0,14.0,outdoors,grass ,Nissan Stadium
+2021_07_CHI_TB,2021,7,2021-10-24,Sunday,TB,Tampa Bay Buccaneers,CHI,Chicago Bears,38,3,41,35,83.0,7.0,outdoors,grass ,Raymond James Stadium
+2021_07_IND_SF,2021,7,2021-10-24,Sunday,SF,San Francisco 49ers,IND,Indianapolis Colts,18,30,48,-12,64.0,16.0,outdoors,grass,Levi's Stadium
+2021_07_NO_SEA,2021,7,2021-10-25,Monday,SEA,Seattle Seahawks,NO,New Orleans Saints,10,13,23,-3,54.0,16.0,outdoors,fieldturf,Lumen Field
+2021_08_MIA_BUF,2021,8,2021-10-31,Sunday,BUF,Buffalo Bills,MIA,Miami Dolphins,26,11,37,15,54.0,9.0,outdoors,a_turf,New Era Field
+2021_08_SF_CHI,2021,8,2021-10-31,Sunday,CHI,Chicago Bears,SF,San Francisco 49ers,22,33,55,-11,53.0,12.0,outdoors,grass ,Soldier Field
+2021_08_PIT_CLE,2021,8,2021-10-31,Sunday,CLE,Cleveland Browns,PIT,Pittsburgh Steelers,10,15,25,-5,57.0,13.0,outdoors,grass ,FirstEnergy Stadium
+2021_08_CIN_NYJ,2021,8,2021-10-31,Sunday,NYJ,New York Jets,CIN,Cincinnati Bengals,34,31,65,3,63.0,11.0,outdoors,fieldturf,MetLife Stadium
+2021_08_JAX_SEA,2021,8,2021-10-31,Sunday,SEA,Seattle Seahawks,JAX,Jacksonville Jaguars,31,7,38,24,54.0,8.0,outdoors,fieldturf,Lumen Field
+2021_08_WAS_DEN,2021,8,2021-10-31,Sunday,DEN,Denver Broncos,WAS,Washington Commanders,17,10,27,7,41.0,4.0,outdoors,grass ,Empower Field at Mile High
+2021_08_NYG_KC,2021,8,2021-11-01,Monday,KC,Kansas City Chiefs,NYG,New York Giants,20,17,37,3,39.0,4.0,outdoors,grass ,GEHA Field at Arrowhead Stadium
+2021_09_MIN_BAL,2021,9,2021-11-07,Sunday,BAL,Baltimore Ravens,MIN,Minnesota Vikings,34,31,65,3,56.0,8.0,outdoors,grass,M&T Bank Stadium
+2021_09_NE_CAR,2021,9,2021-11-07,Sunday,CAR,Carolina Panthers,NE,New England Patriots,6,24,30,-18,61.0,16.0,outdoors,grass ,Bank of America Stadium
+2021_09_CLE_CIN,2021,9,2021-11-07,Sunday,CIN,Cincinnati Bengals,CLE,Cleveland Browns,16,41,57,-25,56.0,0.0,outdoors,fieldturf,Paul Brown Stadium
+2021_09_BUF_JAX,2021,9,2021-11-07,Sunday,JAX,Jacksonville Jaguars,BUF,Buffalo Bills,9,6,15,3,59.0,16.0,outdoors,grass ,TIAA Bank Stadium
+2021_09_HOU_MIA,2021,9,2021-11-07,Sunday,MIA,Miami Dolphins,HOU,Houston Texans,17,9,26,8,72.0,19.0,outdoors,grass ,Hard Rock Stadium
+2021_09_LV_NYG,2021,9,2021-11-07,Sunday,NYG,New York Giants,LV,Las Vegas Raiders,23,16,39,7,54.0,4.0,outdoors,fieldturf,MetLife Stadium
+2021_09_LAC_PHI,2021,9,2021-11-07,Sunday,PHI,Philadelphia Eagles,LAC,Los Angeles Chargers,24,27,51,-3,54.0,11.0,outdoors,grass ,Lincoln Financial Field
+2021_09_GB_KC,2021,9,2021-11-07,Sunday,KC,Kansas City Chiefs,GB,Green Bay Packers,13,7,20,6,51.0,12.0,outdoors,grass ,GEHA Field at Arrowhead Stadium
+2021_09_ARI_SF,2021,9,2021-11-07,Sunday,SF,San Francisco 49ers,ARI,Arizona Cardinals,17,31,48,-14,57.0,8.0,outdoors,grass,Levi's Stadium
+2021_09_CHI_PIT,2021,9,2021-11-08,Monday,PIT,Pittsburgh Steelers,CHI,Chicago Bears,29,27,56,2,55.0,7.0,outdoors,grass ,Heinz Field
+2021_10_BAL_MIA,2021,10,2021-11-11,Thursday,MIA,Miami Dolphins,BAL,Baltimore Ravens,22,10,32,12,77.0,4.0,outdoors,grass ,Hard Rock Stadium
+2021_10_CLE_NE,2021,10,2021-11-14,Sunday,NE,New England Patriots,CLE,Cleveland Browns,45,7,52,38,48.0,6.0,outdoors,fieldturf,Gillette Stadium
+2021_10_BUF_NYJ,2021,10,2021-11-14,Sunday,NYJ,New York Jets,BUF,Buffalo Bills,17,45,62,-28,47.0,4.0,outdoors,fieldturf,MetLife Stadium
+2021_10_DET_PIT,2021,10,2021-11-14,Sunday,PIT,Pittsburgh Steelers,DET,Detroit Lions,16,16,32,0,37.0,12.0,outdoors,grass ,Heinz Field
+2021_10_NO_TEN,2021,10,2021-11-14,Sunday,TEN,Tennessee Titans,NO,New Orleans Saints,23,21,44,2,53.0,12.0,outdoors,grass ,Nissan Stadium
+2021_10_TB_WAS,2021,10,2021-11-14,Sunday,WAS,Washington Commanders,TB,Tampa Bay Buccaneers,29,19,48,10,47.0,8.0,outdoors,grass ,FedExField
+2021_10_PHI_DEN,2021,10,2021-11-14,Sunday,DEN,Denver Broncos,PHI,Philadelphia Eagles,13,30,43,-17,57.0,19.0,outdoors,grass ,Empower Field at Mile High
+2021_10_SEA_GB,2021,10,2021-11-14,Sunday,GB,Green Bay Packers,SEA,Seattle Seahawks,17,0,17,17,35.0,11.0,outdoors,grass ,Lambeau Field
+2021_10_LA_SF,2021,10,2021-11-15,Monday,SF,San Francisco 49ers,LA,Los Angeles Rams,31,10,41,21,59.0,0.0,outdoors,grass,Levi's Stadium
+2021_11_IND_BUF,2021,11,2021-11-21,Sunday,BUF,Buffalo Bills,IND,Indianapolis Colts,15,41,56,-26,49.0,12.0,outdoors,a_turf,New Era Field
+2021_11_WAS_CAR,2021,11,2021-11-21,Sunday,CAR,Carolina Panthers,WAS,Washington Commanders,21,27,48,-6,54.0,0.0,outdoors,grass ,Bank of America Stadium
+2021_11_BAL_CHI,2021,11,2021-11-21,Sunday,CHI,Chicago Bears,BAL,Baltimore Ravens,13,16,29,-3,46.0,9.0,outdoors,grass ,Soldier Field
+2021_11_DET_CLE,2021,11,2021-11-21,Sunday,CLE,Cleveland Browns,DET,Detroit Lions,13,10,23,3,42.0,7.0,outdoors,grass ,FirstEnergy Stadium
+2021_11_SF_JAX,2021,11,2021-11-21,Sunday,JAX,Jacksonville Jaguars,SF,San Francisco 49ers,10,30,40,-20,68.0,17.0,outdoors,grass ,TIAA Bank Stadium
+2021_11_MIA_NYJ,2021,11,2021-11-21,Sunday,NYJ,New York Jets,MIA,Miami Dolphins,17,24,41,-7,52.0,4.0,outdoors,fieldturf,MetLife Stadium
+2021_11_NO_PHI,2021,11,2021-11-21,Sunday,PHI,Philadelphia Eagles,NO,New Orleans Saints,40,29,69,11,51.0,4.0,outdoors,grass ,Lincoln Financial Field
+2021_11_HOU_TEN,2021,11,2021-11-21,Sunday,TEN,Tennessee Titans,HOU,Houston Texans,13,22,35,-9,59.0,8.0,outdoors,grass ,Nissan Stadium
+2021_11_DAL_KC,2021,11,2021-11-21,Sunday,KC,Kansas City Chiefs,DAL,Dallas Cowboys,19,9,28,10,57.0,17.0,outdoors,grass ,GEHA Field at Arrowhead Stadium
+2021_11_ARI_SEA,2021,11,2021-11-21,Sunday,SEA,Seattle Seahawks,ARI,Arizona Cardinals,13,23,36,-10,46.0,0.0,outdoors,fieldturf,Lumen Field
+2021_11_NYG_TB,2021,11,2021-11-22,Monday,TB,Tampa Bay Buccaneers,NYG,New York Giants,30,10,40,20,68.0,6.0,outdoors,grass ,Raymond James Stadium
+2021_12_PIT_CIN,2021,12,2021-11-28,Sunday,CIN,Cincinnati Bengals,PIT,Pittsburgh Steelers,41,10,51,31,43.0,12.0,outdoors,fieldturf,Paul Brown Stadium
+2021_12_ATL_JAX,2021,12,2021-11-28,Sunday,JAX,Jacksonville Jaguars,ATL,Atlanta Falcons,14,21,35,-7,61.0,4.0,outdoors,grass ,TIAA Bank Stadium
+2021_12_CAR_MIA,2021,12,2021-11-28,Sunday,MIA,Miami Dolphins,CAR,Carolina Panthers,33,10,43,23,74.0,4.0,outdoors,grass ,Hard Rock Stadium
+2021_12_TEN_NE,2021,12,2021-11-28,Sunday,NE,New England Patriots,TEN,Tennessee Titans,36,13,49,23,33.0,6.0,outdoors,fieldturf,Gillette Stadium
+2021_12_PHI_NYG,2021,12,2021-11-28,Sunday,NYG,New York Giants,PHI,Philadelphia Eagles,13,7,20,6,39.0,4.0,outdoors,fieldturf,MetLife Stadium
+2021_12_LAC_DEN,2021,12,2021-11-28,Sunday,DEN,Denver Broncos,LAC,Los Angeles Chargers,28,13,41,15,62.0,0.0,outdoors,grass ,Empower Field at Mile High
+2021_12_LA_GB,2021,12,2021-11-28,Sunday,GB,Green Bay Packers,LA,Los Angeles Rams,36,28,64,8,37.0,14.0,outdoors,grass ,Lambeau Field
+2021_12_MIN_SF,2021,12,2021-11-28,Sunday,SF,San Francisco 49ers,MIN,Minnesota Vikings,34,26,60,8,68.0,7.0,outdoors,grass,Levi's Stadium
+2021_12_CLE_BAL,2021,12,2021-11-28,Sunday,BAL,Baltimore Ravens,CLE,Cleveland Browns,16,10,26,6,43.0,0.0,outdoors,grass,M&T Bank Stadium
+2021_12_SEA_WAS,2021,12,2021-11-29,Monday,WAS,Washington Commanders,SEA,Seattle Seahawks,17,15,32,2,41.0,9.0,outdoors,grass ,FedExField
+2021_13_ARI_CHI,2021,13,2021-12-05,Sunday,CHI,Chicago Bears,ARI,Arizona Cardinals,22,33,55,-11,34.0,8.0,outdoors,grass ,Soldier Field
+2021_13_LAC_CIN,2021,13,2021-12-05,Sunday,CIN,Cincinnati Bengals,LAC,Los Angeles Chargers,22,41,63,-19,48.0,11.0,outdoors,fieldturf,Paul Brown Stadium
+2021_13_NYG_MIA,2021,13,2021-12-05,Sunday,MIA,Miami Dolphins,NYG,New York Giants,20,9,29,11,80.0,11.0,outdoors,grass ,Hard Rock Stadium
+2021_13_PHI_NYJ,2021,13,2021-12-05,Sunday,NYJ,New York Jets,PHI,Philadelphia Eagles,18,33,51,-15,45.0,0.0,outdoors,fieldturf,MetLife Stadium
+2021_13_BAL_PIT,2021,13,2021-12-05,Sunday,PIT,Pittsburgh Steelers,BAL,Baltimore Ravens,20,19,39,1,50.0,7.0,outdoors,grass ,Heinz Field
+2021_13_SF_SEA,2021,13,2021-12-05,Sunday,SEA,Seattle Seahawks,SF,San Francisco 49ers,30,23,53,7,41.0,4.0,outdoors,fieldturf,Lumen Field
+2021_13_DEN_KC,2021,13,2021-12-05,Sunday,KC,Kansas City Chiefs,DEN,Denver Broncos,22,9,31,13,58.0,22.0,outdoors,grass ,GEHA Field at Arrowhead Stadium
+2021_13_NE_BUF,2021,13,2021-12-06,Monday,BUF,Buffalo Bills,NE,New England Patriots,10,14,24,-4,36.0,27.0,outdoors,a_turf,New Era Field
+2021_14_ATL_CAR,2021,14,2021-12-12,Sunday,CAR,Carolina Panthers,ATL,Atlanta Falcons,21,29,50,-8,48.0,9.0,outdoors,grass ,Bank of America Stadium
+2021_14_BAL_CLE,2021,14,2021-12-12,Sunday,CLE,Cleveland Browns,BAL,Baltimore Ravens,24,22,46,2,46.0,14.0,outdoors,grass ,FirstEnergy Stadium
+2021_14_LV_KC,2021,14,2021-12-12,Sunday,KC,Kansas City Chiefs,LV,Las Vegas Raiders,48,9,57,39,47.0,19.0,outdoors,grass ,GEHA Field at Arrowhead Stadium
+2021_14_NO_NYJ,2021,14,2021-12-12,Sunday,NYJ,New York Jets,NO,New Orleans Saints,9,30,39,-21,46.0,13.0,outdoors,fieldturf,MetLife Stadium
+2021_14_JAX_TEN,2021,14,2021-12-12,Sunday,TEN,Tennessee Titans,JAX,Jacksonville Jaguars,20,0,20,20,45.0,0.0,outdoors,grass ,Nissan Stadium
+2021_14_DAL_WAS,2021,14,2021-12-12,Sunday,WAS,Washington Commanders,DAL,Dallas Cowboys,20,27,47,-7,48.0,17.0,outdoors,grass ,FedExField
+2021_14_DET_DEN,2021,14,2021-12-12,Sunday,DEN,Denver Broncos,DET,Detroit Lions,38,10,48,28,63.0,8.0,outdoors,grass ,Empower Field at Mile High
+2021_14_SF_CIN,2021,14,2021-12-12,Sunday,CIN,Cincinnati Bengals,SF,San Francisco 49ers,23,26,49,-3,48.0,9.0,outdoors,fieldturf,Paul Brown Stadium
+2021_14_BUF_TB,2021,14,2021-12-12,Sunday,TB,Tampa Bay Buccaneers,BUF,Buffalo Bills,33,27,60,6,82.0,4.0,outdoors,grass ,Raymond James Stadium
+2021_14_CHI_GB,2021,14,2021-12-12,Sunday,GB,Green Bay Packers,CHI,Chicago Bears,45,30,75,15,36.0,8.0,outdoors,grass ,Lambeau Field
+2021_15_CAR_BUF,2021,15,2021-12-19,Sunday,BUF,Buffalo Bills,CAR,Carolina Panthers,31,14,45,17,30.0,8.0,outdoors,a_turf,New Era Field
+2021_15_HOU_JAX,2021,15,2021-12-19,Sunday,JAX,Jacksonville Jaguars,HOU,Houston Texans,16,30,46,-14,80.0,12.0,outdoors,grass,TIAA Bank Stadium
+2021_15_NYJ_MIA,2021,15,2021-12-19,Sunday,MIA,Miami Dolphins,NYJ,New York Jets,31,24,55,7,82.0,9.0,outdoors,grass,Hard Rock Stadium
+2021_15_DAL_NYG,2021,15,2021-12-19,Sunday,NYG,New York Giants,DAL,Dallas Cowboys,6,21,27,-15,37.0,8.0,outdoors,fieldturf,MetLife Stadium
+2021_15_TEN_PIT,2021,15,2021-12-19,Sunday,PIT,Pittsburgh Steelers,TEN,Tennessee Titans,19,13,32,6,32.0,11.0,outdoors,grass,Heinz Field
+2021_15_CIN_DEN,2021,15,2021-12-19,Sunday,DEN,Denver Broncos,CIN,Cincinnati Bengals,10,15,25,-5,61.0,19.0,outdoors,grass,Empower Field at Mile High
+2021_15_ATL_SF,2021,15,2021-12-19,Sunday,SF,San Francisco 49ers,ATL,Atlanta Falcons,31,13,44,18,46.0,0.0,outdoors,grass,Levi's Stadium
+2021_15_GB_BAL,2021,15,2021-12-19,Sunday,BAL,Baltimore Ravens,GB,Green Bay Packers,30,31,61,-1,43.0,11.0,outdoors,grass,M&T Bank Stadium
+2021_15_NO_TB,2021,15,2021-12-19,Sunday,TB,Tampa Bay Buccaneers,NO,New Orleans Saints,0,9,9,-9,75.0,0.0,outdoors,grass,Raymond James Stadium
+2021_15_LV_CLE,2021,15,2021-12-20,Monday,CLE,Cleveland Browns,LV,Las Vegas Raiders,14,16,30,-2,40.0,8.0,outdoors,grass,FirstEnergy Stadium
+2021_15_MIN_CHI,2021,15,2021-12-20,Monday,CHI,Chicago Bears,MIN,Minnesota Vikings,9,17,26,-8,37.0,8.0,outdoors,grass,Soldier Field
+2021_15_WAS_PHI,2021,15,2021-12-21,Tuesday,PHI,Philadelphia Eagles,WAS,Washington Commanders,27,17,44,10,42.0,7.0,outdoors,grass,Lincoln Financial Field
+2021_16_SF_TEN,2021,16,2021-12-23,Thursday,TEN,Tennessee Titans,SF,San Francisco 49ers,20,17,37,3,48.0,7.0,outdoors,grass,Nissan Stadium
+2021_16_CLE_GB,2021,16,2021-12-25,Saturday,GB,Green Bay Packers,CLE,Cleveland Browns,24,22,46,2,35.0,11.0,outdoors,grass,Lambeau Field
+2021_16_TB_CAR,2021,16,2021-12-26,Sunday,CAR,Carolina Panthers,TB,Tampa Bay Buccaneers,6,32,38,-26,73.0,8.0,outdoors,grass,Bank of America Stadium
+2021_16_BAL_CIN,2021,16,2021-12-26,Sunday,CIN,Cincinnati Bengals,BAL,Baltimore Ravens,41,21,62,20,52.0,0.0,outdoors,fieldturf,Paul Brown Stadium
+2021_16_BUF_NE,2021,16,2021-12-26,Sunday,NE,New England Patriots,BUF,Buffalo Bills,21,33,54,-12,38.0,13.0,outdoors,fieldturf,Gillette Stadium
+2021_16_JAX_NYJ,2021,16,2021-12-26,Sunday,NYJ,New York Jets,JAX,Jacksonville Jaguars,26,21,47,5,47.0,0.0,outdoors,fieldturf,MetLife Stadium
+2021_16_NYG_PHI,2021,16,2021-12-26,Sunday,PHI,Philadelphia Eagles,NYG,New York Giants,34,10,44,24,53.0,9.0,outdoors,grass,Lincoln Financial Field
+2021_16_CHI_SEA,2021,16,2021-12-26,Sunday,SEA,Seattle Seahawks,CHI,Chicago Bears,24,25,49,-1,25.0,11.0,outdoors,fieldturf,Lumen Field
+2021_16_PIT_KC,2021,16,2021-12-26,Sunday,KC,Kansas City Chiefs,PIT,Pittsburgh Steelers,36,10,46,26,60.0,22.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2021_17_LA_BAL,2021,17,2022-01-02,Sunday,BAL,Baltimore Ravens,LA,Los Angeles Rams,19,20,39,-1,59.0,6.0,outdoors,grass,M&T Bank Stadium
+2021_17_ATL_BUF,2021,17,2022-01-02,Sunday,BUF,Buffalo Bills,ATL,Atlanta Falcons,29,15,44,14,26.0,11.0,outdoors,a_turf,New Era Field
+2021_17_NYG_CHI,2021,17,2022-01-02,Sunday,CHI,Chicago Bears,NYG,New York Giants,29,3,32,26,25.0,13.0,outdoors,grass,Soldier Field
+2021_17_KC_CIN,2021,17,2022-01-02,Sunday,CIN,Cincinnati Bengals,KC,Kansas City Chiefs,34,31,65,3,33.0,13.0,outdoors,fieldturf,Paul Brown Stadium
+2021_17_JAX_NE,2021,17,2022-01-02,Sunday,NE,New England Patriots,JAX,Jacksonville Jaguars,50,10,60,40,46.0,4.0,outdoors,fieldturf,Gillette Stadium
+2021_17_TB_NYJ,2021,17,2022-01-02,Sunday,NYJ,New York Jets,TB,Tampa Bay Buccaneers,24,28,52,-4,57.0,9.0,outdoors,fieldturf,MetLife Stadium
+2021_17_MIA_TEN,2021,17,2022-01-02,Sunday,TEN,Tennessee Titans,MIA,Miami Dolphins,34,3,37,31,43.0,13.0,outdoors,grass,Nissan Stadium
+2021_17_PHI_WAS,2021,17,2022-01-02,Sunday,WAS,Washington Commanders,PHI,Philadelphia Eagles,16,20,36,-4,62.0,4.0,outdoors,grass,FedExField
+2021_17_HOU_SF,2021,17,2022-01-02,Sunday,SF,San Francisco 49ers,HOU,Houston Texans,23,7,30,16,50.0,6.0,outdoors,grass,Levi's Stadium
+2021_17_DET_SEA,2021,17,2022-01-02,Sunday,SEA,Seattle Seahawks,DET,Detroit Lions,51,29,80,22,37.0,0.0,outdoors,fieldturf,Lumen Field
+2021_17_MIN_GB,2021,17,2022-01-02,Sunday,GB,Green Bay Packers,MIN,Minnesota Vikings,37,10,47,27,11.0,9.0,outdoors,grass,Lambeau Field
+2021_17_CLE_PIT,2021,17,2022-01-03,Monday,PIT,Pittsburgh Steelers,CLE,Cleveland Browns,26,14,40,12,25.0,12.0,outdoors,grass,Heinz Field
+2021_18_KC_DEN,2021,18,2022-01-08,Saturday,DEN,Denver Broncos,KC,Kansas City Chiefs,24,28,52,-4,41.0,4.0,outdoors,grass,Empower Field at Mile High
+2021_18_DAL_PHI,2021,18,2022-01-08,Saturday,PHI,Philadelphia Eagles,DAL,Dallas Cowboys,26,51,77,-25,31.0,8.0,outdoors,grass,Lincoln Financial Field
+2021_18_PIT_BAL,2021,18,2022-01-09,Sunday,BAL,Baltimore Ravens,PIT,Pittsburgh Steelers,13,16,29,-3,36.0,0.0,outdoors,grass,M&T Bank Stadium
+2021_18_CIN_CLE,2021,18,2022-01-09,Sunday,CLE,Cleveland Browns,CIN,Cincinnati Bengals,21,16,37,5,38.0,22.0,outdoors,grass,FirstEnergy Stadium
+2021_18_IND_JAX,2021,18,2022-01-09,Sunday,JAX,Jacksonville Jaguars,IND,Indianapolis Colts,26,11,37,15,76.0,19.0,outdoors,grass,TIAA Bank Stadium
+2021_18_WAS_NYG,2021,18,2022-01-09,Sunday,NYG,New York Giants,WAS,Washington Commanders,7,22,29,-15,38.0,0.0,outdoors,fieldturf,MetLife Stadium
+2021_18_NYJ_BUF,2021,18,2022-01-09,Sunday,BUF,Buffalo Bills,NYJ,New York Jets,27,10,37,17,36.0,19.0,outdoors,a_turf,New Era Field
+2021_18_NE_MIA,2021,18,2022-01-09,Sunday,MIA,Miami Dolphins,NE,New England Patriots,33,24,57,9,75.0,8.0,outdoors,grass,Hard Rock Stadium
+2021_18_CAR_TB,2021,18,2022-01-09,Sunday,TB,Tampa Bay Buccaneers,CAR,Carolina Panthers,41,17,58,24,80.0,4.0,outdoors,grass,Raymond James Stadium
+2021_19_LV_CIN,2021,19,2022-01-15,Saturday,CIN,Cincinnati Bengals,LV,Las Vegas Raiders,26,19,45,7,31.0,12.0,outdoors,fieldturf,Paul Brown Stadium
+2021_19_NE_BUF,2021,19,2022-01-15,Saturday,BUF,Buffalo Bills,NE,New England Patriots,47,17,64,30,7.0,8.0,outdoors,a_turf,New Era Field
+2021_19_PHI_TB,2021,19,2022-01-16,Sunday,TB,Tampa Bay Buccaneers,PHI,Philadelphia Eagles,31,15,46,16,66.0,21.0,outdoors,grass,Raymond James Stadium
+2021_19_PIT_KC,2021,19,2022-01-16,Sunday,KC,Kansas City Chiefs,PIT,Pittsburgh Steelers,42,21,63,21,30.0,8.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2021_20_CIN_TEN,2021,20,2022-01-22,Saturday,TEN,Tennessee Titans,CIN,Cincinnati Bengals,16,19,35,-3,35.0,0.0,outdoors,grass,Nissan Stadium
+2021_20_SF_GB,2021,20,2022-01-22,Saturday,GB,Green Bay Packers,SF,San Francisco 49ers,10,13,23,-3,15.0,12.0,outdoors,grass,Lambeau Field
+2021_20_LA_TB,2021,20,2022-01-23,Sunday,TB,Tampa Bay Buccaneers,LA,Los Angeles Rams,27,30,57,-3,50.0,11.0,outdoors,grass,Raymond James Stadium
+2021_20_BUF_KC,2021,20,2022-01-23,Sunday,KC,Kansas City Chiefs,BUF,Buffalo Bills,42,36,78,6,35.0,6.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2021_21_CIN_KC,2021,21,2022-01-30,Sunday,KC,Kansas City Chiefs,CIN,Cincinnati Bengals,24,27,51,-3,41.0,4.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2022_08_CIN_CLE,2022,8,2022-10-31,Monday,CLE,Cleveland Browns,CIN,Cincinnati Bengals,32,13,45,19,66.0,9.0,outdoors,grass,FirstEnergy Stadium
+2022_09_MIA_CHI,2022,9,2022-11-06,Sunday,CHI,Chicago Bears,MIA,Miami Dolphins,32,35,67,-3,58.0,17.0,outdoors,grass,Soldier Field
+2022_09_CAR_CIN,2022,9,2022-11-06,Sunday,CIN,Cincinnati Bengals,CAR,Carolina Panthers,42,21,63,21,68.0,11.0,outdoors,fieldturf,Paycor Stadium
+2022_09_LV_JAX,2022,9,2022-11-06,Sunday,JAX,Jacksonville Jaguars,LV,Las Vegas Raiders,27,20,47,7,81.0,14.0,outdoors,grass,TIAA Bank Stadium
+2022_09_IND_NE,2022,9,2022-11-06,Sunday,NE,New England Patriots,IND,Indianapolis Colts,26,3,29,23,78.0,13.0,outdoors,fieldturf,Gillette Stadium
+2022_09_BUF_NYJ,2022,9,2022-11-06,Sunday,NYJ,New York Jets,BUF,Buffalo Bills,20,17,37,3,69.0,17.0,outdoors,fieldturf,MetLife Stadium
+2022_09_MIN_WAS,2022,9,2022-11-06,Sunday,WAS,Washington Commanders,MIN,Minnesota Vikings,17,20,37,-3,71.0,11.0,outdoors,grass,FedExField
+2022_09_LA_TB,2022,9,2022-11-06,Sunday,TB,Tampa Bay Buccaneers,LA,Los Angeles Rams,16,13,29,3,88.0,2.0,outdoors,grass,Raymond James Stadium
+2022_09_TEN_KC,2022,9,2022-11-06,Sunday,KC,Kansas City Chiefs,TEN,Tennessee Titans,20,17,37,3,54.0,7.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2022_10_ATL_CAR,2022,10,2022-11-10,Thursday,CAR,Carolina Panthers,ATL,Atlanta Falcons,25,15,40,10,61.0,12.0,outdoors,grass,Bank of America Stadium
+2022_10_MIN_BUF,2022,10,2022-11-13,Sunday,BUF,Buffalo Bills,MIN,Minnesota Vikings,30,33,63,-3,38.0,11.0,outdoors,a_turf,New Era Field
+2022_10_DET_CHI,2022,10,2022-11-13,Sunday,CHI,Chicago Bears,DET,Detroit Lions,30,31,61,-1,34.0,13.0,outdoors,grass,Soldier Field
+2022_10_JAX_KC,2022,10,2022-11-13,Sunday,KC,Kansas City Chiefs,JAX,Jacksonville Jaguars,27,17,44,10,33.0,7.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2022_10_CLE_MIA,2022,10,2022-11-13,Sunday,MIA,Miami Dolphins,CLE,Cleveland Browns,39,17,56,22,85.0,7.0,outdoors,grass,Hard Rock Stadium
+2022_10_HOU_NYG,2022,10,2022-11-13,Sunday,NYG,New York Giants,HOU,Houston Texans,24,16,40,8,50.0,15.0,outdoors,fieldturf,MetLife Stadium
+2022_10_NO_PIT,2022,10,2022-11-13,Sunday,PIT,Pittsburgh Steelers,NO,New Orleans Saints,20,10,30,10,37.0,15.0,outdoors,grass,Acrisure Stadium
+2022_10_DEN_TEN,2022,10,2022-11-13,Sunday,TEN,Tennessee Titans,DEN,Denver Broncos,17,10,27,7,36.0,9.0,outdoors,grass,Nissan Stadium
+2022_10_DAL_GB,2022,10,2022-11-13,Sunday,GB,Green Bay Packers,DAL,Dallas Cowboys,31,28,59,3,33.0,8.0,outdoors,grass,Lambeau Field
+2022_10_LAC_SF,2022,10,2022-11-13,Sunday,SF,San Francisco 49ers,LAC,Los Angeles Chargers,22,16,38,6,57.0,6.0,outdoors,grass,Levi's Stadium
+2022_10_WAS_PHI,2022,10,2022-11-14,Monday,PHI,Philadelphia Eagles,WAS,Washington Commanders,21,32,53,-11,43.0,6.0,outdoors,grass,Lincoln Financial Field
+2022_11_TEN_GB,2022,11,2022-11-17,Thursday,GB,Green Bay Packers,TEN,Tennessee Titans,17,27,44,-10,25.0,11.0,outdoors,grass,Lambeau Field
+2022_11_CAR_BAL,2022,11,2022-11-20,Sunday,BAL,Baltimore Ravens,CAR,Carolina Panthers,13,3,16,10,36.0,2.0,outdoors,grass,M&T Bank Stadium
+2022_11_NYJ_NE,2022,11,2022-11-20,Sunday,NE,New England Patriots,NYJ,New York Jets,10,3,13,7,42.0,2.0,outdoors,fieldturf,Gillette Stadium
+2022_11_DET_NYG,2022,11,2022-11-20,Sunday,NYG,New York Giants,DET,Detroit Lions,18,31,49,-13,35.0,21.0,outdoors,fieldturf,MetLife Stadium
+2022_11_LV_DEN,2022,11,2022-11-20,Sunday,DEN,Denver Broncos,LV,Las Vegas Raiders,16,22,38,-6,49.0,11.0,outdoors,grass,Empower Field at Mile High
+2022_11_CIN_PIT,2022,11,2022-11-20,Sunday,PIT,Pittsburgh Steelers,CIN,Cincinnati Bengals,30,37,67,-7,27.0,12.0,outdoors,grass,Acrisure Stadium
+2022_12_DEN_CAR,2022,12,2022-11-27,Sunday,CAR,Carolina Panthers,DEN,Denver Broncos,23,10,33,13,66.0,15.0,outdoors,grass,Bank of America Stadium
+2022_12_TB_CLE,2022,12,2022-11-27,Sunday,CLE,Cleveland Browns,TB,Tampa Bay Buccaneers,23,17,40,6,56.0,14.0,outdoors,grass,FirstEnergy Stadium
+2022_12_BAL_JAX,2022,12,2022-11-27,Sunday,JAX,Jacksonville Jaguars,BAL,Baltimore Ravens,28,27,55,1,77.0,19.0,outdoors,grass,TIAA Bank Stadium
+2022_12_HOU_MIA,2022,12,2022-11-27,Sunday,MIA,Miami Dolphins,HOU,Houston Texans,30,15,45,15,84.0,13.0,outdoors,grass,Hard Rock Stadium
+2022_12_CHI_NYJ,2022,12,2022-11-27,Sunday,NYJ,New York Jets,CHI,Chicago Bears,31,10,41,21,50.0,9.0,outdoors,fieldturf,MetLife Stadium
+2022_12_CIN_TEN,2022,12,2022-11-27,Sunday,TEN,Tennessee Titans,CIN,Cincinnati Bengals,16,20,36,-4,56.0,14.0,outdoors,grass,Nissan Stadium
+2022_12_ATL_WAS,2022,12,2022-11-27,Sunday,WAS,Washington Commanders,ATL,Atlanta Falcons,19,13,32,6,46.0,9.0,outdoors,grass,FedExField
+2022_12_LV_SEA,2022,12,2022-11-27,Sunday,SEA,Seattle Seahawks,LV,Las Vegas Raiders,34,40,74,-6,44.0,8.0,outdoors,fieldturf,Lumen Field
+2022_12_LA_KC,2022,12,2022-11-27,Sunday,KC,Kansas City Chiefs,LA,Los Angeles Rams,26,10,36,16,44.0,6.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2022_12_NO_SF,2022,12,2022-11-27,Sunday,SF,San Francisco 49ers,NO,New Orleans Saints,13,0,13,13,59.0,2.0,outdoors,grass,Levi's Stadium
+2022_12_GB_PHI,2022,12,2022-11-27,Sunday,PHI,Philadelphia Eagles,GB,Green Bay Packers,40,33,73,7,62.0,24.0,outdoors,grass,Lincoln Financial Field
+2022_13_BUF_NE,2022,13,2022-12-01,Thursday,NE,New England Patriots,BUF,Buffalo Bills,10,24,34,-14,35.0,2.0,outdoors,fieldturf,Gillette Stadium
+2022_13_DEN_BAL,2022,13,2022-12-04,Sunday,BAL,Baltimore Ravens,DEN,Denver Broncos,10,9,19,1,63.0,8.0,outdoors,grass,M&T Bank Stadium
+2022_13_GB_CHI,2022,13,2022-12-04,Sunday,CHI,Chicago Bears,GB,Green Bay Packers,19,28,47,-9,38.0,12.0,outdoors,grass,Soldier Field
+2022_13_WAS_NYG,2022,13,2022-12-04,Sunday,NYG,New York Giants,WAS,Washington Commanders,20,20,40,0,40.0,9.0,outdoors,fieldturf,MetLife Stadium
+2022_13_TEN_PHI,2022,13,2022-12-04,Sunday,PHI,Philadelphia Eagles,TEN,Tennessee Titans,35,10,45,25,60.0,7.0,outdoors,grass,Lincoln Financial Field
+2022_13_MIA_SF,2022,13,2022-12-04,Sunday,SF,San Francisco 49ers,MIA,Miami Dolphins,33,17,50,16,38.0,6.0,outdoors,grass,Levi's Stadium
+2022_13_KC_CIN,2022,13,2022-12-04,Sunday,CIN,Cincinnati Bengals,KC,Kansas City Chiefs,27,24,51,3,57.0,2.0,outdoors,fieldturf,Paycor Stadium
+2022_13_NO_TB,2022,13,2022-12-05,Monday,TB,Tampa Bay Buccaneers,NO,New Orleans Saints,17,16,33,1,69.0,2.0,outdoors,grass,Raymond James Stadium
+2022_14_NYJ_BUF,2022,14,2022-12-11,Sunday,BUF,Buffalo Bills,NYJ,New York Jets,20,12,32,8,36.0,11.0,outdoors,a_turf,New Era Field
+2022_14_CLE_CIN,2022,14,2022-12-11,Sunday,CIN,Cincinnati Bengals,CLE,Cleveland Browns,23,10,33,13,47.0,8.0,outdoors,fieldturf,Paycor Stadium
+2022_14_PHI_NYG,2022,14,2022-12-11,Sunday,NYG,New York Giants,PHI,Philadelphia Eagles,22,48,70,-26,37.0,6.0,outdoors,fieldturf,MetLife Stadium
+2022_14_BAL_PIT,2022,14,2022-12-11,Sunday,PIT,Pittsburgh Steelers,BAL,Baltimore Ravens,14,16,30,-2,42.0,12.0,outdoors,grass,Acrisure Stadium
+2022_14_JAX_TEN,2022,14,2022-12-11,Sunday,TEN,Tennessee Titans,JAX,Jacksonville Jaguars,22,36,58,-14,54.0,8.0,outdoors,grass,Nissan Stadium
+2022_14_KC_DEN,2022,14,2022-12-11,Sunday,DEN,Denver Broncos,KC,Kansas City Chiefs,28,34,62,-6,55.0,4.0,outdoors,grass,Empower Field at Mile High
+2022_14_CAR_SEA,2022,14,2022-12-11,Sunday,SEA,Seattle Seahawks,CAR,Carolina Panthers,24,30,54,-6,45.0,4.0,outdoors,fieldturf,Lumen Field
+2022_14_TB_SF,2022,14,2022-12-11,Sunday,SF,San Francisco 49ers,TB,Tampa Bay Buccaneers,35,7,42,28,54.0,8.0,outdoors,grass,Levi's Stadium
+2022_15_BAL_CLE,2022,15,2022-12-17,Saturday,CLE,Cleveland Browns,BAL,Baltimore Ravens,13,3,16,10,34.0,12.0,outdoors,grass,FirstEnergy Stadium
+2022_15_MIA_BUF,2022,15,2022-12-17,Saturday,BUF,Buffalo Bills,MIA,Miami Dolphins,32,29,61,3,29.0,4.0,outdoors,a_turf,New Era Field
+2022_15_PIT_CAR,2022,15,2022-12-18,Sunday,CAR,Carolina Panthers,PIT,Pittsburgh Steelers,16,24,40,-8,47.0,7.0,outdoors,grass,Bank of America Stadium
+2022_15_PHI_CHI,2022,15,2022-12-18,Sunday,CHI,Chicago Bears,PHI,Philadelphia Eagles,20,25,45,-5,17.0,17.0,outdoors,grass,Soldier Field
+2022_15_DAL_JAX,2022,15,2022-12-18,Sunday,JAX,Jacksonville Jaguars,DAL,Dallas Cowboys,40,34,74,6,54.0,9.0,outdoors,grass,TIAA Bank Stadium
+2022_15_DET_NYJ,2022,15,2022-12-18,Sunday,NYJ,New York Jets,DET,Detroit Lions,17,20,37,-3,38.0,13.0,outdoors,fieldturf,MetLife Stadium
+2022_15_ARI_DEN,2022,15,2022-12-18,Sunday,DEN,Denver Broncos,ARI,Arizona Cardinals,24,15,39,9,37.0,4.0,outdoors,grass,Empower Field at Mile High
+2022_15_CIN_TB,2022,15,2022-12-18,Sunday,TB,Tampa Bay Buccaneers,CIN,Cincinnati Bengals,23,34,57,-11,66.0,6.0,outdoors,grass,Raymond James Stadium
+2022_15_NYG_WAS,2022,15,2022-12-18,Sunday,WAS,Washington Commanders,NYG,New York Giants,12,20,32,-8,35.0,13.0,outdoors,grass,FedExField
+2022_15_LA_GB,2022,15,2022-12-19,Monday,GB,Green Bay Packers,LA,Los Angeles Rams,24,12,36,12,15.0,4.0,outdoors,grass,Lambeau Field
+2022_16_JAX_NYJ,2022,16,2022-12-22,Thursday,NYJ,New York Jets,JAX,Jacksonville Jaguars,3,19,22,-16,43.0,17.0,outdoors,fieldturf,MetLife Stadium
+2022_16_ATL_BAL,2022,16,2022-12-24,Saturday,BAL,Baltimore Ravens,ATL,Atlanta Falcons,17,9,26,8,17.0,9.0,outdoors,grass,M&T Bank Stadium
+2022_16_DET_CAR,2022,16,2022-12-24,Saturday,CAR,Carolina Panthers,DET,Detroit Lions,37,23,60,14,20.0,12.0,outdoors,grass,Bank of America Stadium
+2022_16_BUF_CHI,2022,16,2022-12-24,Saturday,CHI,Chicago Bears,BUF,Buffalo Bills,13,35,48,-22,7.0,17.0,outdoors,grass,Soldier Field
+2022_16_NO_CLE,2022,16,2022-12-24,Saturday,CLE,Cleveland Browns,NO,New Orleans Saints,10,17,27,-7,6.0,27.0,outdoors,grass,FirstEnergy Stadium
+2022_16_SEA_KC,2022,16,2022-12-24,Saturday,KC,Kansas City Chiefs,SEA,Seattle Seahawks,24,10,34,14,12.0,9.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2022_16_CIN_NE,2022,16,2022-12-24,Saturday,NE,New England Patriots,CIN,Cincinnati Bengals,18,22,40,-4,21.0,2.0,outdoors,fieldturf,Gillette Stadium
+2022_16_HOU_TEN,2022,16,2022-12-24,Saturday,TEN,Tennessee Titans,HOU,Houston Texans,14,19,33,-5,22.0,14.0,outdoors,grass,Nissan Stadium
+2022_16_WAS_SF,2022,16,2022-12-24,Saturday,SF,San Francisco 49ers,WAS,Washington Commanders,37,20,57,17,54.0,2.0,outdoors,grass,Levi's Stadium
+2022_16_LV_PIT,2022,16,2022-12-24,Saturday,PIT,Pittsburgh Steelers,LV,Las Vegas Raiders,13,10,23,3,9.0,21.0,outdoors,grass,Acrisure Stadium
+2022_16_GB_MIA,2022,16,2022-12-25,Sunday,MIA,Miami Dolphins,GB,Green Bay Packers,20,26,46,-6,45.0,14.0,outdoors,grass,Hard Rock Stadium
+2022_17_DAL_TEN,2022,17,2022-12-29,Thursday,TEN,Tennessee Titans,DAL,Dallas Cowboys,13,27,40,-14,56.0,4.0,outdoors,grass,Nissan Stadium
+2022_17_DEN_KC,2022,17,2023-01-01,Sunday,KC,Kansas City Chiefs,DEN,Denver Broncos,27,24,51,3,47.0,2.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2022_17_MIA_NE,2022,17,2023-01-01,Sunday,NE,New England Patriots,MIA,Miami Dolphins,23,21,44,2,53.0,2.0,outdoors,fieldturf,Gillette Stadium
+2022_17_IND_NYG,2022,17,2023-01-01,Sunday,NYG,New York Giants,IND,Indianapolis Colts,38,10,48,28,52.0,14.0,outdoors,fieldturf,MetLife Stadium
+2022_17_NO_PHI,2022,17,2023-01-01,Sunday,PHI,Philadelphia Eagles,NO,New Orleans Saints,10,20,30,-10,54.0,11.0,outdoors,grass,Lincoln Financial Field
+2022_17_CAR_TB,2022,17,2023-01-01,Sunday,TB,Tampa Bay Buccaneers,CAR,Carolina Panthers,30,24,54,6,75.0,2.0,outdoors,grass,Raymond James Stadium
+2022_17_CLE_WAS,2022,17,2023-01-01,Sunday,WAS,Washington Commanders,CLE,Cleveland Browns,10,24,34,-14,59.0,9.0,outdoors,grass,FedExField
+2022_17_NYJ_SEA,2022,17,2023-01-01,Sunday,SEA,Seattle Seahawks,NYJ,New York Jets,23,6,29,17,45.0,2.0,outdoors,fieldturf,Lumen Field
+2022_17_MIN_GB,2022,17,2023-01-01,Sunday,GB,Green Bay Packers,MIN,Minnesota Vikings,41,17,58,24,39.0,7.0,outdoors,grass,Lambeau Field
+2022_17_PIT_BAL,2022,17,2023-01-01,Sunday,BAL,Baltimore Ravens,PIT,Pittsburgh Steelers,13,16,29,-3,44.0,2.0,outdoors,grass,M&T Bank Stadium
+2022_18_TEN_JAX,2022,18,2023-01-07,Saturday,JAX,Jacksonville Jaguars,TEN,Tennessee Titans,20,16,36,4,56.0,4.0,outdoors,grass,TIAA Bank Stadium
+2022_18_NE_BUF,2022,18,2023-01-08,Sunday,BUF,Buffalo Bills,NE,New England Patriots,35,23,58,12,30.0,6.0,outdoors,a_turf,New Era Field
+2022_18_MIN_CHI,2022,18,2023-01-08,Sunday,CHI,Chicago Bears,MIN,Minnesota Vikings,13,29,42,-16,32.0,2.0,outdoors,grass,Soldier Field
+2022_18_BAL_CIN,2022,18,2023-01-08,Sunday,CIN,Cincinnati Bengals,BAL,Baltimore Ravens,27,16,43,11,38.0,7.0,outdoors,fieldturf,Paycor Stadium
+2022_18_NYJ_MIA,2022,18,2023-01-08,Sunday,MIA,Miami Dolphins,NYJ,New York Jets,11,6,17,5,75.0,9.0,outdoors,grass,Hard Rock Stadium
+2022_18_CLE_PIT,2022,18,2023-01-08,Sunday,PIT,Pittsburgh Steelers,CLE,Cleveland Browns,28,14,42,14,36.0,8.0,outdoors,grass,Acrisure Stadium
+2022_18_LAC_DEN,2022,18,2023-01-08,Sunday,DEN,Denver Broncos,LAC,Los Angeles Chargers,31,28,59,3,43.0,4.0,outdoors,grass,Empower Field at Mile High
+2022_18_NYG_PHI,2022,18,2023-01-08,Sunday,PHI,Philadelphia Eagles,NYG,New York Giants,22,16,38,6,43.0,12.0,outdoors,grass,Lincoln Financial Field
+2022_18_LA_SEA,2022,18,2023-01-08,Sunday,SEA,Seattle Seahawks,LA,Los Angeles Rams,19,16,35,3,45.0,4.0,outdoors,fieldturf,Lumen Field
+2022_18_ARI_SF,2022,18,2023-01-08,Sunday,SF,San Francisco 49ers,ARI,Arizona Cardinals,38,13,51,25,57.0,2.0,outdoors,grass,Levi's Stadium
+2022_18_DAL_WAS,2022,18,2023-01-08,Sunday,WAS,Washington Commanders,DAL,Dallas Cowboys,26,6,32,20,42.0,7.0,outdoors,grass,FedExField
+2022_18_DET_GB,2022,18,2023-01-08,Sunday,GB,Green Bay Packers,DET,Detroit Lions,16,20,36,-4,21.0,4.0,outdoors,grass,Lambeau Field
+2022_19_SEA_SF,2022,19,2023-01-14,Saturday,SF,San Francisco 49ers,SEA,Seattle Seahawks,41,23,64,18,57.0,11.0,outdoors,grass,Levi's Stadium
+2022_19_LAC_JAX,2022,19,2023-01-14,Saturday,JAX,Jacksonville Jaguars,LAC,Los Angeles Chargers,31,30,61,1,37.0,4.0,outdoors,grass,TIAA Bank Stadium
+2022_19_MIA_BUF,2022,19,2023-01-15,Sunday,BUF,Buffalo Bills,MIA,Miami Dolphins,34,31,65,3,27.0,4.0,outdoors,a_turf,New Era Field
+2022_19_BAL_CIN,2022,19,2023-01-15,Sunday,CIN,Cincinnati Bengals,BAL,Baltimore Ravens,24,17,41,7,30.0,4.0,outdoors,fieldturf,Paycor Stadium
+2022_19_DAL_TB,2022,19,2023-01-16,Monday,TB,Tampa Bay Buccaneers,DAL,Dallas Cowboys,14,31,45,-17,58.0,2.0,outdoors,grass,Raymond James Stadium
+2022_20_JAX_KC,2022,20,2023-01-21,Saturday,KC,Kansas City Chiefs,JAX,Jacksonville Jaguars,27,20,47,7,36.0,6.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2022_20_NYG_PHI,2022,20,2023-01-21,Saturday,PHI,Philadelphia Eagles,NYG,New York Giants,38,7,45,31,40.0,6.0,outdoors,grass,Lincoln Financial Field
+2022_20_CIN_BUF,2022,20,2023-01-22,Sunday,BUF,Buffalo Bills,CIN,Cincinnati Bengals,10,27,37,-17,32.0,4.0,outdoors,a_turf,New Era Field
+2022_20_DAL_SF,2022,20,2023-01-22,Sunday,SF,San Francisco 49ers,DAL,Dallas Cowboys,19,12,31,7,55.0,19.0,outdoors,grass,Levi's Stadium
+2022_21_SF_PHI,2022,21,2023-01-29,Sunday,PHI,Philadelphia Eagles,SF,San Francisco 49ers,31,7,38,24,52.0,14.0,outdoors,grass,Lincoln Financial Field
+2022_21_CIN_KC,2022,21,2023-01-29,Sunday,KC,Kansas City Chiefs,CIN,Cincinnati Bengals,23,20,43,3,22.0,13.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2023_03_NYG_SF,2023,3,2023-09-21,Thursday,SF,San Francisco 49ers,NYG,New York Giants,30,12,42,18,77.0,13.0,outdoors,grass,Levi's Stadium
+2023_03_IND_BAL,2023,3,2023-09-24,Sunday,BAL,Baltimore Ravens,IND,Indianapolis Colts,19,22,41,-3,68.0,3.0,outdoors,grass,M&T Bank Stadium
+2023_03_TEN_CLE,2023,3,2023-09-24,Sunday,CLE,Cleveland Browns,TEN,Tennessee Titans,27,3,30,24,68.0,5.0,outdoors,grass,FirstEnergy Stadium
+2023_03_NO_GB,2023,3,2023-09-24,Sunday,GB,Green Bay Packers,NO,New Orleans Saints,18,17,35,1,68.0,10.0,outdoors,grass,Lambeau Field
+2023_03_HOU_JAX,2023,3,2023-09-24,Sunday,JAX,Jacksonville Jaguars,HOU,Houston Texans,17,37,54,-20,84.0,6.0,outdoors,grass,TIAA Bank Stadium
+2023_03_DEN_MIA,2023,3,2023-09-24,Sunday,MIA,Miami Dolphins,DEN,Denver Broncos,70,20,90,50,86.0,5.0,outdoors,grass,Hard Rock Stadium
+2023_03_NE_NYJ,2023,3,2023-09-24,Sunday,NYJ,New York Jets,NE,New England Patriots,10,15,25,-5,64.0,14.0,outdoors,fieldturf,MetLife Stadium
+2023_03_BUF_WAS,2023,3,2023-09-24,Sunday,WAS,Washington Commanders,BUF,Buffalo Bills,3,37,40,-34,65.0,1.0,outdoors,grass,FedExField
+2023_03_CAR_SEA,2023,3,2023-09-24,Sunday,SEA,Seattle Seahawks,CAR,Carolina Panthers,37,27,64,10,61.0,2.0,outdoors,fieldturf,Lumen Field
+2023_03_PHI_TB,2023,3,2023-09-25,Monday,TB,Tampa Bay Buccaneers,PHI,Philadelphia Eagles,11,25,36,-14,90.0,4.0,outdoors,grass,Raymond James Stadium
+2023_03_LA_CIN,2023,3,2023-09-25,Monday,CIN,Cincinnati Bengals,LA,Los Angeles Rams,19,16,35,3,74.0,7.0,outdoors,fieldturf,Paycor Stadium
+2023_04_DET_GB,2023,4,2023-09-28,Thursday,GB,Green Bay Packers,DET,Detroit Lions,20,34,54,-14,64.0,8.0,outdoors,grass,Lambeau Field
+2023_04_MIA_BUF,2023,4,2023-10-01,Sunday,BUF,Buffalo Bills,MIA,Miami Dolphins,48,20,68,28,70.0,2.0,outdoors,a_turf,New Era Field
+2023_04_MIN_CAR,2023,4,2023-10-01,Sunday,CAR,Carolina Panthers,MIN,Minnesota Vikings,13,21,34,-8,78.0,7.0,outdoors,grass,Bank of America Stadium
+2023_04_DEN_CHI,2023,4,2023-10-01,Sunday,CHI,Chicago Bears,DEN,Denver Broncos,28,31,59,-3,80.0,2.0,outdoors,grass,Soldier Field
+2023_04_BAL_CLE,2023,4,2023-10-01,Sunday,CLE,Cleveland Browns,BAL,Baltimore Ravens,3,28,31,-25,71.0,7.0,outdoors,grass,FirstEnergy Stadium
+2023_04_CIN_TEN,2023,4,2023-10-01,Sunday,TEN,Tennessee Titans,CIN,Cincinnati Bengals,27,3,30,24,82.0,4.0,outdoors,grass,Nissan Stadium
+2023_04_ARI_SF,2023,4,2023-10-01,Sunday,SF,San Francisco 49ers,ARI,Arizona Cardinals,35,16,51,19,75.0,9.0,outdoors,grass,Levi's Stadium
+2023_04_KC_NYJ,2023,4,2023-10-01,Sunday,NYJ,New York Jets,KC,Kansas City Chiefs,20,23,43,-3,69.0,5.0,outdoors,fieldturf,MetLife Stadium
+2023_04_SEA_NYG,2023,4,2023-10-02,Monday,NYG,New York Giants,SEA,Seattle Seahawks,3,24,27,-21,67.0,8.0,outdoors,fieldturf,MetLife Stadium
+2023_05_CHI_WAS,2023,5,2023-10-05,Thursday,WAS,Washington Commanders,CHI,Chicago Bears,20,40,60,-20,70.0,1.0,outdoors,grass,FedExField
+2023_05_NYG_MIA,2023,5,2023-10-08,Sunday,MIA,Miami Dolphins,NYG,New York Giants,31,16,47,15,88.0,8.0,outdoors,grass,Hard Rock Stadium
+2023_05_NO_NE,2023,5,2023-10-08,Sunday,NE,New England Patriots,NO,New Orleans Saints,0,34,34,-34,61.0,10.0,outdoors,fieldturf,Gillette Stadium
+2023_05_BAL_PIT,2023,5,2023-10-08,Sunday,PIT,Pittsburgh Steelers,BAL,Baltimore Ravens,17,10,27,7,53.0,13.0,outdoors,grass,Acrisure Stadium
+2023_05_NYJ_DEN,2023,5,2023-10-08,Sunday,DEN,Denver Broncos,NYJ,New York Jets,21,31,52,-10,73.0,9.0,outdoors,grass,Empower Field at Mile High
+2023_05_DAL_SF,2023,5,2023-10-08,Sunday,SF,San Francisco 49ers,DAL,Dallas Cowboys,42,10,52,32,78.0,10.0,outdoors,grass,Levi's Stadium
+2023_06_MIN_CHI,2023,6,2023-10-15,Sunday,CHI,Chicago Bears,MIN,Minnesota Vikings,13,19,32,-6,53.0,16.0,outdoors,grass,Soldier Field
+2023_06_SEA_CIN,2023,6,2023-10-15,Sunday,CIN,Cincinnati Bengals,SEA,Seattle Seahawks,17,13,30,4,57.0,15.0,outdoors,fieldturf,Paycor Stadium
+2023_06_SF_CLE,2023,6,2023-10-15,Sunday,CLE,Cleveland Browns,SF,San Francisco 49ers,19,17,36,2,53.0,15.0,outdoors,grass,FirstEnergy Stadium
+2023_06_CAR_MIA,2023,6,2023-10-15,Sunday,MIA,Miami Dolphins,CAR,Carolina Panthers,42,21,63,21,87.0,12.0,outdoors,grass,Hard Rock Stadium
+2023_06_PHI_NYJ,2023,6,2023-10-15,Sunday,NYJ,New York Jets,PHI,Philadelphia Eagles,20,14,34,6,59.0,11.0,outdoors,fieldturf,MetLife Stadium
+2023_06_DET_TB,2023,6,2023-10-15,Sunday,TB,Tampa Bay Buccaneers,DET,Detroit Lions,6,20,26,-14,77.0,13.0,outdoors,grass,Raymond James Stadium
+2023_06_NYG_BUF,2023,6,2023-10-15,Sunday,BUF,Buffalo Bills,NYG,New York Giants,14,9,23,5,46.0,7.0,outdoors,a_turf,New Era Field
+2023_07_DET_BAL,2023,7,2023-10-22,Sunday,BAL,Baltimore Ravens,DET,Detroit Lions,38,6,44,32,62.0,16.0,outdoors,grass,M&T Bank Stadium
+2023_07_LV_CHI,2023,7,2023-10-22,Sunday,CHI,Chicago Bears,LV,Las Vegas Raiders,30,12,42,18,52.0,8.0,outdoors,grass,Soldier Field
+2023_07_BUF_NE,2023,7,2023-10-22,Sunday,NE,New England Patriots,BUF,Buffalo Bills,29,25,54,4,55.0,13.0,outdoors,fieldturf,Gillette Stadium
+2023_07_WAS_NYG,2023,7,2023-10-22,Sunday,NYG,New York Giants,WAS,Washington Commanders,14,7,21,7,54.0,14.0,outdoors,fieldturf,MetLife Stadium
+2023_07_ATL_TB,2023,7,2023-10-22,Sunday,TB,Tampa Bay Buccaneers,ATL,Atlanta Falcons,13,16,29,-3,79.0,3.0,outdoors,grass,Raymond James Stadium
+2023_07_ARI_SEA,2023,7,2023-10-22,Sunday,SEA,Seattle Seahawks,ARI,Arizona Cardinals,20,10,30,10,56.0,5.0,outdoors,fieldturf,Lumen Field
+2023_07_GB_DEN,2023,7,2023-10-22,Sunday,DEN,Denver Broncos,GB,Green Bay Packers,19,17,36,2,72.0,9.0,outdoors,grass,Empower Field at Mile High
+2023_07_LAC_KC,2023,7,2023-10-22,Sunday,KC,Kansas City Chiefs,LAC,Los Angeles Chargers,31,17,48,14,72.0,10.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2023_07_MIA_PHI,2023,7,2023-10-22,Sunday,PHI,Philadelphia Eagles,MIA,Miami Dolphins,31,17,48,14,55.0,17.0,outdoors,grass,Lincoln Financial Field
+2023_08_TB_BUF,2023,8,2023-10-26,Thursday,BUF,Buffalo Bills,TB,Tampa Bay Buccaneers,24,18,42,6,66.0,10.0,outdoors,a_turf,New Era Field
+2023_08_HOU_CAR,2023,8,2023-10-29,Sunday,CAR,Carolina Panthers,HOU,Houston Texans,15,13,28,2,77.0,14.0,outdoors,grass,Bank of America Stadium
+2023_08_MIN_GB,2023,8,2023-10-29,Sunday,GB,Green Bay Packers,MIN,Minnesota Vikings,10,24,34,-14,39.0,8.0,outdoors,grass,Lambeau Field
+2023_08_NE_MIA,2023,8,2023-10-29,Sunday,MIA,Miami Dolphins,NE,New England Patriots,31,17,48,14,83.0,17.0,outdoors,grass,Hard Rock Stadium
+2023_08_NYJ_NYG,2023,8,2023-10-29,Sunday,NYG,New York Giants,NYJ,New York Jets,10,13,23,-3,52.0,6.0,outdoors,fieldturf,MetLife Stadium
+2023_08_JAX_PIT,2023,8,2023-10-29,Sunday,PIT,Pittsburgh Steelers,JAX,Jacksonville Jaguars,10,20,30,-10,58.0,2.0,outdoors,grass,Acrisure Stadium
+2023_08_ATL_TEN,2023,8,2023-10-29,Sunday,TEN,Tennessee Titans,ATL,Atlanta Falcons,28,23,51,5,77.0,7.0,outdoors,grass,Nissan Stadium
+2023_08_PHI_WAS,2023,8,2023-10-29,Sunday,WAS,Washington Commanders,PHI,Philadelphia Eagles,31,38,69,-7,69.0,4.0,outdoors,grass,FedExField
+2023_08_CLE_SEA,2023,8,2023-10-29,Sunday,SEA,Seattle Seahawks,CLE,Cleveland Browns,24,20,44,4,47.0,3.0,outdoors,fieldturf,Lumen Field
+2023_08_KC_DEN,2023,8,2023-10-29,Sunday,DEN,Denver Broncos,KC,Kansas City Chiefs,24,9,33,15,26.0,7.0,outdoors,grass,Empower Field at Mile High
+2023_08_CIN_SF,2023,8,2023-10-29,Sunday,SF,San Francisco 49ers,CIN,Cincinnati Bengals,17,31,48,-14,74.0,10.0,outdoors,grass,Levi's Stadium
+2023_09_TEN_PIT,2023,9,2023-11-02,Thursday,PIT,Pittsburgh Steelers,TEN,Tennessee Titans,20,16,36,4,40.0,5.0,outdoors,grass,Acrisure Stadium
+2023_09_SEA_BAL,2023,9,2023-11-05,Sunday,BAL,Baltimore Ravens,SEA,Seattle Seahawks,37,3,40,34,70.0,6.0,outdoors,grass,M&T Bank Stadium
+2023_09_ARI_CLE,2023,9,2023-11-05,Sunday,CLE,Cleveland Browns,ARI,Arizona Cardinals,27,0,27,27,56.0,7.0,outdoors,grass,FirstEnergy Stadium
+2023_09_LA_GB,2023,9,2023-11-05,Sunday,GB,Green Bay Packers,LA,Los Angeles Rams,20,3,23,17,51.0,8.0,outdoors,grass,Lambeau Field
+2023_09_WAS_NE,2023,9,2023-11-05,Sunday,NE,New England Patriots,WAS,Washington Commanders,17,20,37,-3,62.0,6.0,outdoors,fieldturf,Gillette Stadium
+2023_09_IND_CAR,2023,9,2023-11-05,Sunday,CAR,Carolina Panthers,IND,Indianapolis Colts,13,27,40,-14,75.0,2.0,outdoors,grass,Bank of America Stadium
+2023_09_DAL_PHI,2023,9,2023-11-05,Sunday,PHI,Philadelphia Eagles,DAL,Dallas Cowboys,28,23,51,5,64.0,6.0,outdoors,grass,Lincoln Financial Field
+2023_09_BUF_CIN,2023,9,2023-11-05,Sunday,CIN,Cincinnati Bengals,BUF,Buffalo Bills,24,18,42,6,51.0,5.0,outdoors,fieldturf,Paycor Stadium
+2023_09_LAC_NYJ,2023,9,2023-11-06,Monday,NYJ,New York Jets,LAC,Los Angeles Chargers,6,27,33,-21,48.0,4.0,outdoors,fieldturf,MetLife Stadium
+2023_10_CAR_CHI,2023,10,2023-11-09,Thursday,CHI,Chicago Bears,CAR,Carolina Panthers,16,13,29,3,51.0,8.0,outdoors,grass,Soldier Field
+2023_10_CLE_BAL,2023,10,2023-11-12,Sunday,BAL,Baltimore Ravens,CLE,Cleveland Browns,31,33,64,-2,49.0,4.0,outdoors,grass,M&T Bank Stadium
+2023_10_HOU_CIN,2023,10,2023-11-12,Sunday,CIN,Cincinnati Bengals,HOU,Houston Texans,27,30,57,-3,56.0,6.0,outdoors,fieldturf,Paycor Stadium
+2023_10_SF_JAX,2023,10,2023-11-12,Sunday,JAX,Jacksonville Jaguars,SF,San Francisco 49ers,3,34,37,-31,59.0,11.0,outdoors,grass,TIAA Bank Stadium
+2023_10_GB_PIT,2023,10,2023-11-12,Sunday,PIT,Pittsburgh Steelers,GB,Green Bay Packers,23,19,42,4,50.0,5.0,outdoors,grass,Acrisure Stadium
+2023_10_TEN_TB,2023,10,2023-11-12,Sunday,TB,Tampa Bay Buccaneers,TEN,Tennessee Titans,20,6,26,14,85.0,6.0,outdoors,grass,Raymond James Stadium
+2023_10_WAS_SEA,2023,10,2023-11-12,Sunday,SEA,Seattle Seahawks,WAS,Washington Commanders,29,26,55,3,52.0,4.0,outdoors,fieldturf,Lumen Field
+2023_10_DEN_BUF,2023,10,2023-11-13,Monday,BUF,Buffalo Bills,DEN,Denver Broncos,22,24,46,-2,49.0,10.0,outdoors,a_turf,New Era Field
+2023_11_CIN_BAL,2023,11,2023-11-16,Thursday,BAL,Baltimore Ravens,CIN,Cincinnati Bengals,34,20,54,14,56.0,1.0,outdoors,grass,M&T Bank Stadium
+2023_11_DAL_CAR,2023,11,2023-11-19,Sunday,CAR,Carolina Panthers,DAL,Dallas Cowboys,10,33,43,-23,65.0,2.0,outdoors,grass,Bank of America Stadium
+2023_11_PIT_CLE,2023,11,2023-11-19,Sunday,CLE,Cleveland Browns,PIT,Pittsburgh Steelers,13,10,23,3,48.0,11.0,outdoors,grass,FirstEnergy Stadium
+2023_11_LAC_GB,2023,11,2023-11-19,Sunday,GB,Green Bay Packers,LAC,Los Angeles Chargers,23,20,43,3,45.0,5.0,outdoors,grass,Lambeau Field
+2023_11_TEN_JAX,2023,11,2023-11-19,Sunday,JAX,Jacksonville Jaguars,TEN,Tennessee Titans,34,14,48,20,75.0,3.0,outdoors,grass,TIAA Bank Stadium
+2023_11_LV_MIA,2023,11,2023-11-19,Sunday,MIA,Miami Dolphins,LV,Las Vegas Raiders,20,13,33,7,82.0,7.0,outdoors,grass,Hard Rock Stadium
+2023_11_NYG_WAS,2023,11,2023-11-19,Sunday,WAS,Washington Commanders,NYG,New York Giants,19,31,50,-12,56.0,7.0,outdoors,grass,FedExField
+2023_11_TB_SF,2023,11,2023-11-19,Sunday,SF,San Francisco 49ers,TB,Tampa Bay Buccaneers,27,14,41,13,65.0,10.0,outdoors,grass,Levi's Stadium
+2023_11_NYJ_BUF,2023,11,2023-11-19,Sunday,BUF,Buffalo Bills,NYJ,New York Jets,32,6,38,26,40.0,9.0,outdoors,a_turf,New Era Field
+2023_11_MIN_DEN,2023,11,2023-11-19,Sunday,DEN,Denver Broncos,MIN,Minnesota Vikings,21,20,41,1,53.0,3.0,outdoors,grass,Empower Field at Mile High
+2023_11_PHI_KC,2023,11,2023-11-20,Monday,KC,Kansas City Chiefs,PHI,Philadelphia Eagles,17,21,38,-4,45.0,12.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2023_12_SF_SEA,2023,12,2023-11-23,Thursday,SEA,Seattle Seahawks,SF,San Francisco 49ers,13,31,44,-18,39.0,4.0,outdoors,fieldturf,Lumen Field
+2023_12_MIA_NYJ,2023,12,2023-11-24,Friday,NYJ,New York Jets,MIA,Miami Dolphins,13,34,47,-21,48.0,11.0,outdoors,fieldturf,MetLife Stadium
+2023_12_PIT_CIN,2023,12,2023-11-26,Sunday,CIN,Cincinnati Bengals,PIT,Pittsburgh Steelers,10,16,26,-6,48.0,9.0,outdoors,fieldturf,Paycor Stadium
+2023_12_NE_NYG,2023,12,2023-11-26,Sunday,NYG,New York Giants,NE,New England Patriots,10,7,17,3,43.0,6.0,outdoors,fieldturf,MetLife Stadium
+2023_12_CAR_TEN,2023,12,2023-11-26,Sunday,TEN,Tennessee Titans,CAR,Carolina Panthers,17,10,27,7,51.0,13.0,outdoors,grass,Nissan Stadium
+2023_12_CLE_DEN,2023,12,2023-11-26,Sunday,DEN,Denver Broncos,CLE,Cleveland Browns,29,12,41,17,40.0,5.0,outdoors,grass,Empower Field at Mile High
+2023_12_BUF_PHI,2023,12,2023-11-26,Sunday,PHI,Philadelphia Eagles,BUF,Buffalo Bills,37,34,71,3,47.0,6.0,outdoors,grass,Lincoln Financial Field
+2023_13_LAC_NE,2023,13,2023-12-03,Sunday,NE,New England Patriots,LAC,Los Angeles Chargers,0,6,6,-6,44.0,8.0,outdoors,fieldturf,Gillette Stadium
+2023_13_ATL_NYJ,2023,13,2023-12-03,Sunday,NYJ,New York Jets,ATL,Atlanta Falcons,8,13,21,-5,50.0,8.0,outdoors,fieldturf,MetLife Stadium
+2023_13_ARI_PIT,2023,13,2023-12-03,Sunday,PIT,Pittsburgh Steelers,ARI,Arizona Cardinals,10,24,34,-14,56.0,12.0,outdoors,grass,Acrisure Stadium
+2023_13_IND_TEN,2023,13,2023-12-03,Sunday,TEN,Tennessee Titans,IND,Indianapolis Colts,28,31,59,-3,53.0,13.0,outdoors,grass,Nissan Stadium
+2023_13_MIA_WAS,2023,13,2023-12-03,Sunday,WAS,Washington Commanders,MIA,Miami Dolphins,15,45,60,-30,53.0,2.0,outdoors,grass,FedExField
+2023_13_CAR_TB,2023,13,2023-12-03,Sunday,TB,Tampa Bay Buccaneers,CAR,Carolina Panthers,21,18,39,3,81.0,8.0,outdoors,grass,Raymond James Stadium
+2023_13_SF_PHI,2023,13,2023-12-03,Sunday,PHI,Philadelphia Eagles,SF,San Francisco 49ers,19,42,61,-23,52.0,44.0,outdoors,grass,Lincoln Financial Field
+2023_13_KC_GB,2023,13,2023-12-03,Sunday,GB,Green Bay Packers,KC,Kansas City Chiefs,27,19,46,8,31.0,9.0,outdoors,grass,Lambeau Field
+2023_13_CIN_JAX,2023,13,2023-12-04,Monday,JAX,Jacksonville Jaguars,CIN,Cincinnati Bengals,31,34,65,-3,61.0,4.0,outdoors,grass,TIAA Bank Stadium
+2023_14_NE_PIT,2023,14,2023-12-07,Thursday,PIT,Pittsburgh Steelers,NE,New England Patriots,18,21,39,-3,42.0,5.0,outdoors,grass,Acrisure Stadium
+2023_14_LA_BAL,2023,14,2023-12-10,Sunday,BAL,Baltimore Ravens,LA,Los Angeles Rams,37,31,68,6,57.0,5.0,outdoors,grass,M&T Bank Stadium
+2023_14_DET_CHI,2023,14,2023-12-10,Sunday,CHI,Chicago Bears,DET,Detroit Lions,28,13,41,15,36.0,12.0,outdoors,grass,Soldier Field
+2023_14_IND_CIN,2023,14,2023-12-10,Sunday,CIN,Cincinnati Bengals,IND,Indianapolis Colts,34,14,48,20,40.0,9.0,outdoors,fieldturf,Paycor Stadium
+2023_14_JAX_CLE,2023,14,2023-12-10,Sunday,CLE,Cleveland Browns,JAX,Jacksonville Jaguars,31,27,58,4,39.0,11.0,outdoors,grass,FirstEnergy Stadium
+2023_14_HOU_NYJ,2023,14,2023-12-10,Sunday,NYJ,New York Jets,HOU,Houston Texans,30,6,36,24,58.0,7.0,outdoors,fieldturf,MetLife Stadium
+2023_14_SEA_SF,2023,14,2023-12-10,Sunday,SF,San Francisco 49ers,SEA,Seattle Seahawks,28,16,44,12,63.0,5.0,outdoors,grass,Levi's Stadium
+2023_14_BUF_KC,2023,14,2023-12-10,Sunday,KC,Kansas City Chiefs,BUF,Buffalo Bills,17,20,37,-3,45.0,5.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2023_14_TEN_MIA,2023,14,2023-12-11,Monday,MIA,Miami Dolphins,TEN,Tennessee Titans,27,28,55,-1,64.0,9.0,outdoors,grass,Hard Rock Stadium
+2023_14_GB_NYG,2023,14,2023-12-11,Monday,NYG,New York Giants,GB,Green Bay Packers,24,22,46,2,39.0,14.0,outdoors,fieldturf,MetLife Stadium
+2023_15_MIN_CIN,2023,15,2023-12-16,Saturday,CIN,Cincinnati Bengals,MIN,Minnesota Vikings,27,24,51,3,53.0,5.0,outdoors,fieldturf,Paycor Stadium
+2023_15_ATL_CAR,2023,15,2023-12-17,Sunday,CAR,Carolina Panthers,ATL,Atlanta Falcons,9,7,16,2,47.0,11.0,outdoors,grass,Bank of America Stadium
+2023_15_CHI_CLE,2023,15,2023-12-17,Sunday,CLE,Cleveland Browns,CHI,Chicago Bears,20,17,37,3,45.0,15.0,outdoors,grass,FirstEnergy Stadium
+2023_15_TB_GB,2023,15,2023-12-17,Sunday,GB,Green Bay Packers,TB,Tampa Bay Buccaneers,20,34,54,-14,42.0,8.0,outdoors,grass,Lambeau Field
+2023_15_NYJ_MIA,2023,15,2023-12-17,Sunday,MIA,Miami Dolphins,NYJ,New York Jets,30,0,30,30,76.0,15.0,outdoors,grass,Hard Rock Stadium
+2023_15_KC_NE,2023,15,2023-12-17,Sunday,NE,New England Patriots,KC,Kansas City Chiefs,17,27,44,-10,53.0,7.0,outdoors,fieldturf,Gillette Stadium
+2023_15_HOU_TEN,2023,15,2023-12-17,Sunday,TEN,Tennessee Titans,HOU,Houston Texans,16,19,35,-3,48.0,9.0,outdoors,grass,Nissan Stadium
+2023_15_DAL_BUF,2023,15,2023-12-17,Sunday,BUF,Buffalo Bills,DAL,Dallas Cowboys,31,10,41,21,48.0,9.0,outdoors,a_turf,New Era Field
+2023_15_BAL_JAX,2023,15,2023-12-17,Sunday,JAX,Jacksonville Jaguars,BAL,Baltimore Ravens,7,23,30,-16,58.0,13.0,outdoors,grass,TIAA Bank Stadium
+2023_15_PHI_SEA,2023,15,2023-12-18,Monday,SEA,Seattle Seahawks,PHI,Philadelphia Eagles,20,17,37,3,46.0,2.0,outdoors,fieldturf,Lumen Field
+2023_16_CIN_PIT,2023,16,2023-12-23,Saturday,PIT,Pittsburgh Steelers,CIN,Cincinnati Bengals,34,11,45,23,49.0,5.0,outdoors,grass,Acrisure Stadium
+2023_16_GB_CAR,2023,16,2023-12-24,Sunday,CAR,Carolina Panthers,GB,Green Bay Packers,30,33,63,-3,67.0,1.0,outdoors,grass,Bank of America Stadium
+2023_16_WAS_NYJ,2023,16,2023-12-24,Sunday,NYJ,New York Jets,WAS,Washington Commanders,30,28,58,2,45.0,2.0,outdoors,fieldturf,MetLife Stadium
+2023_16_SEA_TEN,2023,16,2023-12-24,Sunday,TEN,Tennessee Titans,SEA,Seattle Seahawks,17,20,37,-3,61.0,4.0,outdoors,grass,Nissan Stadium
+2023_16_JAX_TB,2023,16,2023-12-24,Sunday,TB,Tampa Bay Buccaneers,JAX,Jacksonville Jaguars,30,12,42,18,72.0,11.0,outdoors,grass,Raymond James Stadium
+2023_16_ARI_CHI,2023,16,2023-12-24,Sunday,CHI,Chicago Bears,ARI,Arizona Cardinals,27,16,43,11,52.0,4.0,outdoors,grass,Soldier Field
+2023_16_DAL_MIA,2023,16,2023-12-24,Sunday,MIA,Miami Dolphins,DAL,Dallas Cowboys,22,20,42,2,75.0,15.0,outdoors,grass,Hard Rock Stadium
+2023_16_NE_DEN,2023,16,2023-12-24,Sunday,DEN,Denver Broncos,NE,New England Patriots,23,26,49,-3,28.0,9.0,outdoors,grass,Empower Field at Mile High
+2023_16_LV_KC,2023,16,2023-12-25,Monday,KC,Kansas City Chiefs,LV,Las Vegas Raiders,14,20,34,-6,38.0,11.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2023_16_NYG_PHI,2023,16,2023-12-25,Monday,PHI,Philadelphia Eagles,NYG,New York Giants,33,25,58,8,51.0,5.0,outdoors,grass,Lincoln Financial Field
+2023_16_BAL_SF,2023,16,2023-12-25,Monday,SF,San Francisco 49ers,BAL,Baltimore Ravens,19,33,52,-14,56.0,8.0,outdoors,grass,Levi's Stadium
+2023_17_NYJ_CLE,2023,17,2023-12-28,Thursday,CLE,Cleveland Browns,NYJ,New York Jets,37,20,57,17,47.0,6.0,outdoors,grass,FirstEnergy Stadium
+2023_17_MIA_BAL,2023,17,2023-12-31,Sunday,BAL,Baltimore Ravens,MIA,Miami Dolphins,56,19,75,37,50.0,7.0,outdoors,grass,M&T Bank Stadium
+2023_17_NE_BUF,2023,17,2023-12-31,Sunday,BUF,Buffalo Bills,NE,New England Patriots,27,21,48,6,35.0,4.0,outdoors,a_turf,New Era Field
+2023_17_ATL_CHI,2023,17,2023-12-31,Sunday,CHI,Chicago Bears,ATL,Atlanta Falcons,37,17,54,20,32.0,5.0,outdoors,grass,Soldier Field
+2023_17_CAR_JAX,2023,17,2023-12-31,Sunday,JAX,Jacksonville Jaguars,CAR,Carolina Panthers,26,0,26,26,56.0,8.0,outdoors,grass,TIAA Bank Stadium
+2023_17_LA_NYG,2023,17,2023-12-31,Sunday,NYG,New York Giants,LA,Los Angeles Rams,25,26,51,-1,41.0,10.0,outdoors,fieldturf,MetLife Stadium
+2023_17_ARI_PHI,2023,17,2023-12-31,Sunday,PHI,Philadelphia Eagles,ARI,Arizona Cardinals,31,35,66,-4,45.0,9.0,outdoors,grass,Lincoln Financial Field
+2023_17_NO_TB,2023,17,2023-12-31,Sunday,TB,Tampa Bay Buccaneers,NO,New Orleans Saints,13,23,36,-10,66.0,5.0,outdoors,grass,Raymond James Stadium
+2023_17_SF_WAS,2023,17,2023-12-31,Sunday,WAS,Washington Commanders,SF,San Francisco 49ers,10,27,37,-17,48.0,7.0,outdoors,grass,FedExField
+2023_17_PIT_SEA,2023,17,2023-12-31,Sunday,SEA,Seattle Seahawks,PIT,Pittsburgh Steelers,23,30,53,-7,47.0,4.0,outdoors,fieldturf,Lumen Field
+2023_17_LAC_DEN,2023,17,2023-12-31,Sunday,DEN,Denver Broncos,LAC,Los Angeles Chargers,16,9,25,7,41.0,6.0,outdoors,grass,Empower Field at Mile High
+2023_17_CIN_KC,2023,17,2023-12-31,Sunday,KC,Kansas City Chiefs,CIN,Cincinnati Bengals,25,17,42,8,36.0,12.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2023_18_PIT_BAL,2023,18,2024-01-06,Saturday,BAL,Baltimore Ravens,PIT,Pittsburgh Steelers,10,17,27,-7,38.0,15.0,outdoors,grass,M&T Bank Stadium
+2023_18_TB_CAR,2023,18,2024-01-07,Sunday,CAR,Carolina Panthers,TB,Tampa Bay Buccaneers,0,9,9,-9,54.0,19.0,outdoors,grass,Bank of America Stadium
+2023_18_CLE_CIN,2023,18,2024-01-07,Sunday,CIN,Cincinnati Bengals,CLE,Cleveland Browns,31,14,45,17,38.0,12.0,outdoors,fieldturf,Paycor Stadium
+2023_18_NYJ_NE,2023,18,2024-01-07,Sunday,NE,New England Patriots,NYJ,New York Jets,3,17,20,-14,33.0,14.0,outdoors,fieldturf,Gillette Stadium
+2023_18_JAX_TEN,2023,18,2024-01-07,Sunday,TEN,Tennessee Titans,JAX,Jacksonville Jaguars,28,20,48,8,41.0,11.0,outdoors,grass,Nissan Stadium
+2023_18_CHI_GB,2023,18,2024-01-07,Sunday,GB,Green Bay Packers,CHI,Chicago Bears,17,9,26,8,34.0,7.0,outdoors,grass,Lambeau Field
+2023_18_PHI_NYG,2023,18,2024-01-07,Sunday,NYG,New York Giants,PHI,Philadelphia Eagles,27,10,37,17,36.0,12.0,outdoors,fieldturf,MetLife Stadium
+2023_18_LA_SF,2023,18,2024-01-07,Sunday,SF,San Francisco 49ers,LA,Los Angeles Rams,20,21,41,-1,52.0,11.0,outdoors,grass,Levi's Stadium
+2023_18_DAL_WAS,2023,18,2024-01-07,Sunday,WAS,Washington Commanders,DAL,Dallas Cowboys,10,38,48,-28,48.0,13.0,outdoors,grass,FedExField
+2023_18_BUF_MIA,2023,18,2024-01-07,Sunday,MIA,Miami Dolphins,BUF,Buffalo Bills,14,21,35,-7,63.0,6.0,outdoors,grass,Hard Rock Stadium
+2023_19_MIA_KC,2023,19,2024-01-13,Saturday,KC,Kansas City Chiefs,MIA,Miami Dolphins,26,7,33,19,-4.0,19.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2023_19_PIT_BUF,2023,19,2024-01-15,Monday,BUF,Buffalo Bills,PIT,Pittsburgh Steelers,31,17,48,14,17.0,10.0,outdoors,a_turf,New Era Field
+2023_19_PHI_TB,2023,19,2024-01-15,Monday,TB,Tampa Bay Buccaneers,PHI,Philadelphia Eagles,32,9,41,23,65.0,2.0,outdoors,grass,Raymond James Stadium
+2023_20_HOU_BAL,2023,20,2024-01-20,Saturday,BAL,Baltimore Ravens,HOU,Houston Texans,34,10,44,24,27.0,16.0,outdoors,grass,M&T Bank Stadium
+2023_20_GB_SF,2023,20,2024-01-20,Saturday,SF,San Francisco 49ers,GB,Green Bay Packers,24,21,45,3,59.0,8.0,outdoors,grass,Levi's Stadium
+2023_20_KC_BUF,2023,20,2024-01-21,Sunday,BUF,Buffalo Bills,KC,Kansas City Chiefs,24,27,51,-3,25.0,11.0,outdoors,a_turf,New Era Field
+2023_21_KC_BAL,2023,21,2024-01-28,Sunday,BAL,Baltimore Ravens,KC,Kansas City Chiefs,10,17,27,-7,47.0,7.0,outdoors,grass,M&T Bank Stadium
+2023_21_DET_SF,2023,21,2024-01-28,Sunday,SF,San Francisco 49ers,DET,Detroit Lions,34,31,65,3,69.0,5.0,outdoors,grass,Levi's Stadium
+2024_01_BAL_KC,2024,1,2024-09-05,Thursday,KC,Kansas City Chiefs,BAL,Baltimore Ravens,27,20,47,7,67.0,8.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2024_01_ARI_BUF,2024,1,2024-09-08,Sunday,BUF,Buffalo Bills,ARI,Arizona Cardinals,34,28,62,6,61.0,20.0,outdoors,a_turf,New Era Field
+2024_01_TEN_CHI,2024,1,2024-09-08,Sunday,CHI,Chicago Bears,TEN,Tennessee Titans,24,17,41,7,67.0,8.0,outdoors,grass,Soldier Field
+2024_01_NE_CIN,2024,1,2024-09-08,Sunday,CIN,Cincinnati Bengals,NE,New England Patriots,10,16,26,-6,66.0,5.0,outdoors,fieldturf,Paycor Stadium
+2024_01_JAX_MIA,2024,1,2024-09-08,Sunday,MIA,Miami Dolphins,JAX,Jacksonville Jaguars,20,17,37,3,91.0,10.0,outdoors,grass,Hard Rock Stadium
+2024_01_MIN_NYG,2024,1,2024-09-08,Sunday,NYG,New York Giants,MIN,Minnesota Vikings,6,28,34,-22,64.0,10.0,outdoors,fieldturf,MetLife Stadium
+2024_01_DEN_SEA,2024,1,2024-09-08,Sunday,SEA,Seattle Seahawks,DEN,Denver Broncos,26,20,46,6,65.0,7.0,outdoors,fieldturf,Lumen Field
+2024_01_DAL_CLE,2024,1,2024-09-08,Sunday,CLE,Cleveland Browns,DAL,Dallas Cowboys,17,33,50,-16,69.0,17.0,outdoors,grass,FirstEnergy Stadium
+2024_01_WAS_TB,2024,1,2024-09-08,Sunday,TB,Tampa Bay Buccaneers,WAS,Washington Commanders,37,20,57,17,93.0,6.0,outdoors,grass,Raymond James Stadium
+2024_01_NYJ_SF,2024,1,2024-09-09,Monday,SF,San Francisco 49ers,NYJ,New York Jets,32,19,51,13,76.0,10.0,outdoors,grass,Levi's Stadium
+2024_02_BUF_MIA,2024,2,2024-09-12,Thursday,MIA,Miami Dolphins,BUF,Buffalo Bills,10,31,41,-21,86.0,3.0,outdoors,grass,Hard Rock Stadium
+2024_02_LV_BAL,2024,2,2024-09-15,Sunday,BAL,Baltimore Ravens,LV,Las Vegas Raiders,23,26,49,-3,76.0,10.0,outdoors,grass,M&T Bank Stadium
+2024_02_LAC_CAR,2024,2,2024-09-15,Sunday,CAR,Carolina Panthers,LAC,Los Angeles Chargers,3,26,29,-23,78.0,13.0,outdoors,grass,Bank of America Stadium
+2024_02_IND_GB,2024,2,2024-09-15,Sunday,GB,Green Bay Packers,IND,Indianapolis Colts,16,10,26,6,85.0,7.0,outdoors,grass,Lambeau Field
+2024_02_CLE_JAX,2024,2,2024-09-15,Sunday,JAX,Jacksonville Jaguars,CLE,Cleveland Browns,13,18,31,-5,80.0,12.0,outdoors,grass,TIAA Bank Stadium
+2024_02_SEA_NE,2024,2,2024-09-15,Sunday,NE,New England Patriots,SEA,Seattle Seahawks,20,23,43,-3,77.0,5.0,outdoors,fieldturf,Gillette Stadium
+2024_02_NYJ_TEN,2024,2,2024-09-15,Sunday,TEN,Tennessee Titans,NYJ,New York Jets,17,24,41,-7,80.0,13.0,outdoors,grass,Nissan Stadium
+2024_02_NYG_WAS,2024,2,2024-09-15,Sunday,WAS,Washington Commanders,NYG,New York Giants,21,18,39,3,82.0,11.0,outdoors,grass,FedExField
+2024_02_PIT_DEN,2024,2,2024-09-15,Sunday,DEN,Denver Broncos,PIT,Pittsburgh Steelers,6,13,19,-7,83.0,4.0,outdoors,grass,Empower Field at Mile High
+2024_02_CIN_KC,2024,2,2024-09-15,Sunday,KC,Kansas City Chiefs,CIN,Cincinnati Bengals,26,25,51,1,89.0,8.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2024_02_ATL_PHI,2024,2,2024-09-16,Monday,PHI,Philadelphia Eagles,ATL,Atlanta Falcons,21,22,43,-1,71.0,9.0,outdoors,grass,Lincoln Financial Field
+2024_03_NE_NYJ,2024,3,2024-09-19,Thursday,NYJ,New York Jets,NE,New England Patriots,24,3,27,21,75.0,5.0,outdoors,fieldturf,MetLife Stadium
+2024_03_NYG_CLE,2024,3,2024-09-22,Sunday,CLE,Cleveland Browns,NYG,New York Giants,15,21,36,-6,76.0,4.0,outdoors,grass,FirstEnergy Stadium
+2024_03_LAC_PIT,2024,3,2024-09-22,Sunday,PIT,Pittsburgh Steelers,LAC,Los Angeles Chargers,20,10,30,10,72.0,2.0,outdoors,grass,Acrisure Stadium
+2024_03_DEN_TB,2024,3,2024-09-22,Sunday,TB,Tampa Bay Buccaneers,DEN,Denver Broncos,7,26,33,-19,85.0,6.0,outdoors,grass,Raymond James Stadium
+2024_03_GB_TEN,2024,3,2024-09-22,Sunday,TEN,Tennessee Titans,GB,Green Bay Packers,14,30,44,-16,87.0,7.0,outdoors,grass,Nissan Stadium
+2024_03_MIA_SEA,2024,3,2024-09-22,Sunday,SEA,Seattle Seahawks,MIA,Miami Dolphins,24,3,27,21,64.0,2.0,outdoors,fieldturf,Lumen Field
+2024_03_JAX_BUF,2024,3,2024-09-23,Monday,BUF,Buffalo Bills,JAX,Jacksonville Jaguars,47,10,57,37,68.0,5.0,outdoors,a_turf,New Era Field
+2024_03_WAS_CIN,2024,3,2024-09-23,Monday,CIN,Cincinnati Bengals,WAS,Washington Commanders,33,38,71,-5,69.0,5.0,outdoors,fieldturf,Paycor Stadium
+2024_04_DAL_NYG,2024,4,2024-09-26,Thursday,NYG,New York Giants,DAL,Dallas Cowboys,15,20,35,-5,74.0,3.0,outdoors,fieldturf,MetLife Stadium
+2024_04_CIN_CAR,2024,4,2024-09-29,Sunday,CAR,Carolina Panthers,CIN,Cincinnati Bengals,24,34,58,-10,78.0,6.0,outdoors,grass,Bank of America Stadium
+2024_04_LA_CHI,2024,4,2024-09-29,Sunday,CHI,Chicago Bears,LA,Los Angeles Rams,24,18,42,6,70.0,16.0,outdoors,grass,Soldier Field
+2024_04_MIN_GB,2024,4,2024-09-29,Sunday,GB,Green Bay Packers,MIN,Minnesota Vikings,29,31,60,-2,71.0,15.0,outdoors,grass,Lambeau Field
+2024_04_DEN_NYJ,2024,4,2024-09-29,Sunday,NYJ,New York Jets,DEN,Denver Broncos,9,10,19,-1,67.0,8.0,outdoors,fieldturf,MetLife Stadium
+2024_04_PHI_TB,2024,4,2024-09-29,Sunday,TB,Tampa Bay Buccaneers,PHI,Philadelphia Eagles,33,16,49,17,88.0,9.0,outdoors,grass,Raymond James Stadium
+2024_04_NE_SF,2024,4,2024-09-29,Sunday,SF,San Francisco 49ers,NE,New England Patriots,30,13,43,17,71.0,5.0,outdoors,grass,Levi's Stadium
+2024_04_BUF_BAL,2024,4,2024-09-29,Sunday,BAL,Baltimore Ravens,BUF,Buffalo Bills,35,10,45,25,68.0,8.0,outdoors,grass,M&T Bank Stadium
+2024_04_TEN_MIA,2024,4,2024-09-30,Monday,MIA,Miami Dolphins,TEN,Tennessee Titans,12,31,43,-19,86.0,9.0,outdoors,grass,Hard Rock Stadium
+2024_05_NYJ_MIN,2024,5,2024-10-06,Sunday,MIN,Minnesota Vikings,NYJ,New York Jets,23,17,40,6,59.0,8.0,outdoors,grass,Tottenham Stadium
+2024_05_CAR_CHI,2024,5,2024-10-06,Sunday,CHI,Chicago Bears,CAR,Carolina Panthers,36,10,46,26,74.0,7.0,outdoors,grass,Soldier Field
+2024_05_BAL_CIN,2024,5,2024-10-06,Sunday,CIN,Cincinnati Bengals,BAL,Baltimore Ravens,38,41,79,-3,81.0,10.0,outdoors,fieldturf,Paycor Stadium
+2024_05_IND_JAX,2024,5,2024-10-06,Sunday,JAX,Jacksonville Jaguars,IND,Indianapolis Colts,37,34,71,3,74.0,4.0,outdoors,grass,TIAA Bank Stadium
+2024_05_MIA_NE,2024,5,2024-10-06,Sunday,NE,New England Patriots,MIA,Miami Dolphins,10,15,25,-5,65.0,2.0,outdoors,fieldturf,Gillette Stadium
+2024_05_CLE_WAS,2024,5,2024-10-06,Sunday,WAS,Washington Commanders,CLE,Cleveland Browns,34,13,47,21,73.0,5.0,outdoors,grass,FedExField
+2024_05_LV_DEN,2024,5,2024-10-06,Sunday,DEN,Denver Broncos,LV,Las Vegas Raiders,34,18,52,16,73.0,7.0,outdoors,grass,Empower Field at Mile High
+2024_05_ARI_SF,2024,5,2024-10-06,Sunday,SF,San Francisco 49ers,ARI,Arizona Cardinals,23,24,47,-1,89.0,3.0,outdoors,grass,Levi's Stadium
+2024_05_NYG_SEA,2024,5,2024-10-06,Sunday,SEA,Seattle Seahawks,NYG,New York Giants,20,29,49,-9,61.0,3.0,outdoors,fieldturf,Lumen Field
+2024_05_DAL_PIT,2024,5,2024-10-06,Sunday,PIT,Pittsburgh Steelers,DAL,Dallas Cowboys,17,20,37,-3,67.0,6.0,outdoors,grass,Acrisure Stadium
+2024_05_NO_KC,2024,5,2024-10-07,Monday,KC,Kansas City Chiefs,NO,New Orleans Saints,26,13,39,13,70.0,1.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2024_06_SF_SEA,2024,6,2024-10-10,Thursday,SEA,Seattle Seahawks,SF,San Francisco 49ers,24,36,60,-12,59.0,10.0,outdoors,fieldturf,Lumen Field
+2024_06_JAX_CHI,2024,6,2024-10-13,Sunday,CHI,Chicago Bears,JAX,Jacksonville Jaguars,35,16,51,19,54.0,3.0,outdoors,grass,Tottenham Stadium
+2024_06_WAS_BAL,2024,6,2024-10-13,Sunday,BAL,Baltimore Ravens,WAS,Washington Commanders,30,23,53,7,75.0,8.0,outdoors,grass,M&T Bank Stadium
+2024_06_ARI_GB,2024,6,2024-10-13,Sunday,GB,Green Bay Packers,ARI,Arizona Cardinals,34,13,47,21,50.0,4.0,outdoors,grass,Lambeau Field
+2024_06_HOU_NE,2024,6,2024-10-13,Sunday,NE,New England Patriots,HOU,Houston Texans,21,41,62,-20,53.0,5.0,outdoors,fieldturf,Gillette Stadium
+2024_06_CLE_PHI,2024,6,2024-10-13,Sunday,PHI,Philadelphia Eagles,CLE,Cleveland Browns,20,16,36,4,82.0,10.0,outdoors,grass,Lincoln Financial Field
+2024_06_IND_TEN,2024,6,2024-10-13,Sunday,TEN,Tennessee Titans,IND,Indianapolis Colts,17,20,37,-3,80.0,12.0,outdoors,grass,Nissan Stadium
+2024_06_LAC_DEN,2024,6,2024-10-13,Sunday,DEN,Denver Broncos,LAC,Los Angeles Chargers,16,23,39,-7,65.0,7.0,outdoors,grass,Empower Field at Mile High
+2024_06_ATL_CAR,2024,6,2024-10-13,Sunday,CAR,Carolina Panthers,ATL,Atlanta Falcons,20,38,58,-18,79.0,9.0,outdoors,grass,Bank of America Stadium
+2024_06_CIN_NYG,2024,6,2024-10-13,Sunday,NYG,New York Giants,CIN,Cincinnati Bengals,7,17,24,-10,63.0,2.0,outdoors,fieldturf,MetLife Stadium
+2024_06_BUF_NYJ,2024,6,2024-10-14,Monday,NYJ,New York Jets,BUF,Buffalo Bills,20,23,43,-3,49.0,14.0,outdoors,fieldturf,MetLife Stadium
+2024_07_NE_JAX,2024,7,2024-10-20,Sunday,JAX,Jacksonville Jaguars,NE,New England Patriots,32,16,48,16,63.0,12.0,outdoors,grass,Wembley Stadium
+2024_07_TEN_BUF,2024,7,2024-10-20,Sunday,BUF,Buffalo Bills,TEN,Tennessee Titans,34,10,44,24,66.0,12.0,outdoors,a_turf,New Era Field
+2024_07_CIN_CLE,2024,7,2024-10-20,Sunday,CLE,Cleveland Browns,CIN,Cincinnati Bengals,14,21,35,-7,62.0,8.0,outdoors,grass,FirstEnergy Stadium
+2024_07_HOU_GB,2024,7,2024-10-20,Sunday,GB,Green Bay Packers,HOU,Houston Texans,24,22,46,2,72.0,3.0,outdoors,grass,Lambeau Field
+2024_07_PHI_NYG,2024,7,2024-10-20,Sunday,NYG,New York Giants,PHI,Philadelphia Eagles,3,28,31,-25,71.0,4.0,outdoors,fieldturf,MetLife Stadium
+2024_07_CAR_WAS,2024,7,2024-10-20,Sunday,WAS,Washington Commanders,CAR,Carolina Panthers,40,7,47,33,76.0,2.0,outdoors,grass,FedExField
+2024_07_KC_SF,2024,7,2024-10-20,Sunday,SF,San Francisco 49ers,KC,Kansas City Chiefs,18,28,46,-10,78.0,3.0,outdoors,grass,Levi's Stadium
+2024_07_NYJ_PIT,2024,7,2024-10-20,Sunday,PIT,Pittsburgh Steelers,NYJ,New York Jets,37,15,52,22,60.0,4.0,outdoors,grass,Acrisure Stadium
+2024_07_BAL_TB,2024,7,2024-10-21,Monday,TB,Tampa Bay Buccaneers,BAL,Baltimore Ravens,31,41,72,-10,80.0,8.0,outdoors,grass,Raymond James Stadium
+2024_08_PHI_CIN,2024,8,2024-10-27,Sunday,CIN,Cincinnati Bengals,PHI,Philadelphia Eagles,17,37,54,-20,59.0,6.0,outdoors,fieldturf,Paycor Stadium
+2024_08_BAL_CLE,2024,8,2024-10-27,Sunday,CLE,Cleveland Browns,BAL,Baltimore Ravens,29,24,53,5,52.0,4.0,outdoors,grass,FirstEnergy Stadium
+2024_08_GB_JAX,2024,8,2024-10-27,Sunday,JAX,Jacksonville Jaguars,GB,Green Bay Packers,27,30,57,-3,84.0,4.0,outdoors,grass,TIAA Bank Stadium
+2024_08_ARI_MIA,2024,8,2024-10-27,Sunday,MIA,Miami Dolphins,ARI,Arizona Cardinals,27,28,55,-1,82.0,14.0,outdoors,grass,Hard Rock Stadium
+2024_08_NYJ_NE,2024,8,2024-10-27,Sunday,NE,New England Patriots,NYJ,New York Jets,25,22,47,3,53.0,8.0,outdoors,fieldturf,Gillette Stadium
+2024_08_ATL_TB,2024,8,2024-10-27,Sunday,TB,Tampa Bay Buccaneers,ATL,Atlanta Falcons,26,31,57,-5,79.0,6.0,outdoors,grass,Raymond James Stadium
+2024_08_BUF_SEA,2024,8,2024-10-27,Sunday,SEA,Seattle Seahawks,BUF,Buffalo Bills,10,31,41,-21,55.0,14.0,outdoors,fieldturf,Lumen Field
+2024_08_CAR_DEN,2024,8,2024-10-27,Sunday,DEN,Denver Broncos,CAR,Carolina Panthers,28,14,42,14,76.0,4.0,outdoors,grass,Empower Field at Mile High
+2024_08_CHI_WAS,2024,8,2024-10-27,Sunday,WAS,Washington Commanders,CHI,Chicago Bears,18,15,33,3,58.0,2.0,outdoors,grass,FedExField
+2024_08_DAL_SF,2024,8,2024-10-27,Sunday,SF,San Francisco 49ers,DAL,Dallas Cowboys,30,24,54,6,69.0,9.0,outdoors,grass,Levi's Stadium
+2024_08_NYG_PIT,2024,8,2024-10-28,Monday,PIT,Pittsburgh Steelers,NYG,New York Giants,26,18,44,8,54.0,7.0,outdoors,grass,Acrisure Stadium
+2024_09_HOU_NYJ,2024,9,2024-10-31,Thursday,NYJ,New York Jets,HOU,Houston Texans,21,13,34,8,71.0,8.0,outdoors,fieldturf,MetLife Stadium
+2024_09_DEN_BAL,2024,9,2024-11-03,Sunday,BAL,Baltimore Ravens,DEN,Denver Broncos,41,10,51,31,57.0,3.0,outdoors,grass,M&T Bank Stadium
+2024_09_MIA_BUF,2024,9,2024-11-03,Sunday,BUF,Buffalo Bills,MIA,Miami Dolphins,30,27,57,3,54.0,9.0,outdoors,a_turf,New Era Field
+2024_09_NO_CAR,2024,9,2024-11-03,Sunday,CAR,Carolina Panthers,NO,New Orleans Saints,23,22,45,1,66.0,7.0,outdoors,grass,Bank of America Stadium
+2024_09_LV_CIN,2024,9,2024-11-03,Sunday,CIN,Cincinnati Bengals,LV,Las Vegas Raiders,41,24,65,17,67.0,7.0,outdoors,fieldturf,Paycor Stadium
+2024_09_LAC_CLE,2024,9,2024-11-03,Sunday,CLE,Cleveland Browns,LAC,Los Angeles Chargers,10,27,37,-17,57.0,10.0,outdoors,grass,FirstEnergy Stadium
+2024_09_WAS_NYG,2024,9,2024-11-03,Sunday,NYG,New York Giants,WAS,Washington Commanders,22,27,49,-5,52.0,6.0,outdoors,fieldturf,MetLife Stadium
+2024_09_NE_TEN,2024,9,2024-11-03,Sunday,TEN,Tennessee Titans,NE,New England Patriots,20,17,37,3,75.0,10.0,outdoors,grass,Nissan Stadium
+2024_09_JAX_PHI,2024,9,2024-11-03,Sunday,PHI,Philadelphia Eagles,JAX,Jacksonville Jaguars,28,23,51,5,57.0,6.0,outdoors,grass,Lincoln Financial Field
+2024_09_DET_GB,2024,9,2024-11-03,Sunday,GB,Green Bay Packers,DET,Detroit Lions,14,24,38,-10,50.0,15.0,outdoors,grass,Lambeau Field
+2024_09_LA_SEA,2024,9,2024-11-03,Sunday,SEA,Seattle Seahawks,LA,Los Angeles Rams,20,26,46,-6,52.0,4.0,outdoors,fieldturf,Lumen Field
+2024_09_TB_KC,2024,9,2024-11-04,Monday,KC,Kansas City Chiefs,TB,Tampa Bay Buccaneers,30,24,54,6,63.0,6.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2024_10_CIN_BAL,2024,10,2024-11-07,Thursday,BAL,Baltimore Ravens,CIN,Cincinnati Bengals,35,34,69,1,69.0,6.0,outdoors,grass,M&T Bank Stadium
+2024_10_NE_CHI,2024,10,2024-11-10,Sunday,CHI,Chicago Bears,NE,New England Patriots,3,19,22,-16,60.0,6.0,outdoors,grass,Soldier Field
+2024_10_MIN_JAX,2024,10,2024-11-10,Sunday,JAX,Jacksonville Jaguars,MIN,Minnesota Vikings,7,12,19,-5,79.0,7.0,outdoors,grass,TIAA Bank Stadium
+2024_10_DEN_KC,2024,10,2024-11-10,Sunday,KC,Kansas City Chiefs,DEN,Denver Broncos,16,14,30,2,57.0,12.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2024_10_SF_TB,2024,10,2024-11-10,Sunday,TB,Tampa Bay Buccaneers,SF,San Francisco 49ers,20,23,43,-3,85.0,9.0,outdoors,grass,Raymond James Stadium
+2024_10_PIT_WAS,2024,10,2024-11-10,Sunday,WAS,Washington Commanders,PIT,Pittsburgh Steelers,27,28,55,-1,57.0,9.0,outdoors,grass,FedExField
+2024_11_WAS_PHI,2024,11,2024-11-14,Thursday,PHI,Philadelphia Eagles,WAS,Washington Commanders,26,18,44,8,46.0,9.0,outdoors,grass,Lincoln Financial Field
+2024_11_GB_CHI,2024,11,2024-11-17,Sunday,CHI,Chicago Bears,GB,Green Bay Packers,19,20,39,-1,54.0,5.0,outdoors,grass,Soldier Field
+2024_11_LV_MIA,2024,11,2024-11-17,Sunday,MIA,Miami Dolphins,LV,Las Vegas Raiders,34,19,53,15,80.0,16.0,outdoors,grass,Hard Rock Stadium
+2024_11_LA_NE,2024,11,2024-11-17,Sunday,NE,New England Patriots,LA,Los Angeles Rams,22,28,50,-6,59.0,9.0,outdoors,fieldturf,Gillette Stadium
+2024_11_IND_NYJ,2024,11,2024-11-17,Sunday,NYJ,New York Jets,IND,Indianapolis Colts,27,28,55,-1,62.0,4.0,outdoors,fieldturf,MetLife Stadium
+2024_11_BAL_PIT,2024,11,2024-11-17,Sunday,PIT,Pittsburgh Steelers,BAL,Baltimore Ravens,18,16,34,2,52.0,5.0,outdoors,grass,Acrisure Stadium
+2024_11_MIN_TEN,2024,11,2024-11-17,Sunday,TEN,Tennessee Titans,MIN,Minnesota Vikings,13,23,36,-10,66.0,7.0,outdoors,grass,Nissan Stadium
+2024_11_ATL_DEN,2024,11,2024-11-17,Sunday,DEN,Denver Broncos,ATL,Atlanta Falcons,38,6,44,32,55.0,9.0,outdoors,grass,Empower Field at Mile High
+2024_11_SEA_SF,2024,11,2024-11-17,Sunday,SF,San Francisco 49ers,SEA,Seattle Seahawks,17,20,37,-3,59.0,4.0,outdoors,grass,Levi's Stadium
+2024_11_KC_BUF,2024,11,2024-11-17,Sunday,BUF,Buffalo Bills,KC,Kansas City Chiefs,30,21,51,9,50.0,3.0,outdoors,a_turf,New Era Field
+2024_12_PIT_CLE,2024,12,2024-11-21,Thursday,CLE,Cleveland Browns,PIT,Pittsburgh Steelers,24,19,43,5,36.0,13.0,outdoors,grass,FirstEnergy Stadium
+2024_12_KC_CAR,2024,12,2024-11-24,Sunday,CAR,Carolina Panthers,KC,Kansas City Chiefs,27,30,57,-3,61.0,5.0,outdoors,grass,Bank of America Stadium
+2024_12_MIN_CHI,2024,12,2024-11-24,Sunday,CHI,Chicago Bears,MIN,Minnesota Vikings,27,30,57,-3,47.0,5.0,outdoors,grass,Soldier Field
+2024_12_NE_MIA,2024,12,2024-11-24,Sunday,MIA,Miami Dolphins,NE,New England Patriots,34,15,49,19,77.0,6.0,outdoors,grass,Hard Rock Stadium
+2024_12_TB_NYG,2024,12,2024-11-24,Sunday,NYG,New York Giants,TB,Tampa Bay Buccaneers,7,30,37,-23,50.0,13.0,outdoors,fieldturf,MetLife Stadium
+2024_12_DAL_WAS,2024,12,2024-11-24,Sunday,WAS,Washington Commanders,DAL,Dallas Cowboys,26,34,60,-8,55.0,5.0,outdoors,grass,FedExField
+2024_12_SF_GB,2024,12,2024-11-24,Sunday,GB,Green Bay Packers,SF,San Francisco 49ers,38,10,48,28,43.0,11.0,outdoors,grass,Lambeau Field
+2024_12_ARI_SEA,2024,12,2024-11-24,Sunday,SEA,Seattle Seahawks,ARI,Arizona Cardinals,16,6,22,10,45.0,5.0,outdoors,fieldturf,Lumen Field
+2024_13_MIA_GB,2024,13,2024-11-28,Thursday,GB,Green Bay Packers,MIA,Miami Dolphins,30,17,47,13,27.0,10.0,outdoors,grass,Lambeau Field
+2024_13_LV_KC,2024,13,2024-11-29,Friday,KC,Kansas City Chiefs,LV,Las Vegas Raiders,19,17,36,2,37.0,5.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2024_13_PIT_CIN,2024,13,2024-12-01,Sunday,CIN,Cincinnati Bengals,PIT,Pittsburgh Steelers,38,44,82,-6,32.0,9.0,outdoors,fieldturf,Paycor Stadium
+2024_13_IND_NE,2024,13,2024-12-01,Sunday,NE,New England Patriots,IND,Indianapolis Colts,24,25,49,-1,36.0,9.0,outdoors,fieldturf,Gillette Stadium
+2024_13_SEA_NYJ,2024,13,2024-12-01,Sunday,NYJ,New York Jets,SEA,Seattle Seahawks,21,26,47,-5,37.0,12.0,outdoors,fieldturf,MetLife Stadium
+2024_13_TEN_WAS,2024,13,2024-12-01,Sunday,WAS,Washington Commanders,TEN,Tennessee Titans,42,19,61,23,42.0,6.0,outdoors,grass,FedExField
+2024_13_TB_CAR,2024,13,2024-12-01,Sunday,CAR,Carolina Panthers,TB,Tampa Bay Buccaneers,23,26,49,-3,51.0,7.0,outdoors,grass,Bank of America Stadium
+2024_13_PHI_BAL,2024,13,2024-12-01,Sunday,BAL,Baltimore Ravens,PHI,Philadelphia Eagles,19,24,43,-5,41.0,7.0,outdoors,grass,M&T Bank Stadium
+2024_13_SF_BUF,2024,13,2024-12-01,Sunday,BUF,Buffalo Bills,SF,San Francisco 49ers,35,10,45,25,28.0,11.0,outdoors,a_turf,New Era Field
+2024_13_CLE_DEN,2024,13,2024-12-02,Monday,DEN,Denver Broncos,CLE,Cleveland Browns,41,32,73,9,48.0,4.0,outdoors,grass,Empower Field at Mile High
+2024_14_NYJ_MIA,2024,14,2024-12-08,Sunday,MIA,Miami Dolphins,NYJ,New York Jets,32,26,58,6,77.0,12.0,outdoors,grass,Hard Rock Stadium
+2024_14_NO_NYG,2024,14,2024-12-08,Sunday,NYG,New York Giants,NO,New Orleans Saints,11,14,25,-3,54.0,13.0,outdoors,fieldturf,MetLife Stadium
+2024_14_CAR_PHI,2024,14,2024-12-08,Sunday,PHI,Philadelphia Eagles,CAR,Carolina Panthers,22,16,38,6,55.0,16.0,outdoors,grass,Lincoln Financial Field
+2024_14_CLE_PIT,2024,14,2024-12-08,Sunday,PIT,Pittsburgh Steelers,CLE,Cleveland Browns,27,14,41,13,49.0,12.0,outdoors,grass,Acrisure Stadium
+2024_14_LV_TB,2024,14,2024-12-08,Sunday,TB,Tampa Bay Buccaneers,LV,Las Vegas Raiders,28,13,41,15,71.0,4.0,outdoors,grass,Raymond James Stadium
+2024_14_JAX_TEN,2024,14,2024-12-08,Sunday,TEN,Tennessee Titans,JAX,Jacksonville Jaguars,6,10,16,-4,53.0,9.0,outdoors,grass,Nissan Stadium
+2024_14_CHI_SF,2024,14,2024-12-08,Sunday,SF,San Francisco 49ers,CHI,Chicago Bears,38,13,51,25,65.0,4.0,outdoors,grass,Levi's Stadium
+2024_14_LAC_KC,2024,14,2024-12-08,Sunday,KC,Kansas City Chiefs,LAC,Los Angeles Chargers,19,17,36,2,50.0,10.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2024_15_LA_SF,2024,15,2024-12-12,Thursday,SF,San Francisco 49ers,LA,Los Angeles Rams,6,12,18,-6,53.0,4.0,outdoors,grass,Levi's Stadium
+2024_15_DAL_CAR,2024,15,2024-12-15,Sunday,CAR,Carolina Panthers,DAL,Dallas Cowboys,14,30,44,-16,45.0,7.0,outdoors,grass,Bank of America Stadium
+2024_15_KC_CLE,2024,15,2024-12-15,Sunday,CLE,Cleveland Browns,KC,Kansas City Chiefs,7,21,28,-14,40.0,18.0,outdoors,grass,FirstEnergy Stadium
+2024_15_BAL_NYG,2024,15,2024-12-15,Sunday,NYG,New York Giants,BAL,Baltimore Ravens,14,35,49,-21,36.0,6.0,outdoors,fieldturf,MetLife Stadium
+2024_15_CIN_TEN,2024,15,2024-12-15,Sunday,TEN,Tennessee Titans,CIN,Cincinnati Bengals,27,37,64,-10,52.0,12.0,outdoors,grass,Nissan Stadium
+2024_15_IND_DEN,2024,15,2024-12-15,Sunday,DEN,Denver Broncos,IND,Indianapolis Colts,31,13,44,18,55.0,15.0,outdoors,grass,Empower Field at Mile High
+2024_15_PIT_PHI,2024,15,2024-12-15,Sunday,PHI,Philadelphia Eagles,PIT,Pittsburgh Steelers,27,13,40,14,37.0,5.0,outdoors,grass,Lincoln Financial Field
+2024_15_GB_SEA,2024,15,2024-12-15,Sunday,SEA,Seattle Seahawks,GB,Green Bay Packers,13,30,43,-17,43.0,3.0,outdoors,fieldturf,Lumen Field
+2024_16_HOU_KC,2024,16,2024-12-21,Saturday,KC,Kansas City Chiefs,HOU,Houston Texans,27,19,46,8,30.0,5.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2024_16_PIT_BAL,2024,16,2024-12-21,Saturday,BAL,Baltimore Ravens,PIT,Pittsburgh Steelers,34,17,51,17,35.0,15.0,outdoors,grass,M&T Bank Stadium
+2024_16_ARI_CAR,2024,16,2024-12-22,Sunday,CAR,Carolina Panthers,ARI,Arizona Cardinals,36,30,66,6,37.0,10.0,outdoors,grass,Bank of America Stadium
+2024_16_DET_CHI,2024,16,2024-12-22,Sunday,CHI,Chicago Bears,DET,Detroit Lions,17,34,51,-17,29.0,7.0,outdoors,grass,Soldier Field
+2024_16_CLE_CIN,2024,16,2024-12-22,Sunday,CIN,Cincinnati Bengals,CLE,Cleveland Browns,24,6,30,18,33.0,6.0,outdoors,fieldturf,Paycor Stadium
+2024_16_LA_NYJ,2024,16,2024-12-22,Sunday,NYJ,New York Jets,LA,Los Angeles Rams,9,19,28,-10,23.0,8.0,outdoors,fieldturf,MetLife Stadium
+2024_16_PHI_WAS,2024,16,2024-12-22,Sunday,WAS,Washington Commanders,PHI,Philadelphia Eagles,36,33,69,3,32.0,8.0,outdoors,grass,FedExField
+2024_16_MIN_SEA,2024,16,2024-12-22,Sunday,SEA,Seattle Seahawks,MIN,Minnesota Vikings,24,27,51,-3,48.0,5.0,outdoors,fieldturf,Lumen Field
+2024_16_NE_BUF,2024,16,2024-12-22,Sunday,BUF,Buffalo Bills,NE,New England Patriots,24,21,45,3,14.0,2.0,outdoors,a_turf,New Era Field
+2024_16_SF_MIA,2024,16,2024-12-22,Sunday,MIA,Miami Dolphins,SF,San Francisco 49ers,29,17,46,12,73.0,12.0,outdoors,grass,Hard Rock Stadium
+2024_16_NO_GB,2024,16,2024-12-23,Monday,GB,Green Bay Packers,NO,New Orleans Saints,34,0,34,34,34.0,12.0,outdoors,grass,Lambeau Field
+2024_17_KC_PIT,2024,17,2024-12-25,Wednesday,PIT,Pittsburgh Steelers,KC,Kansas City Chiefs,10,29,39,-19,39.0,2.0,outdoors,grass,Acrisure Stadium
+2024_17_SEA_CHI,2024,17,2024-12-26,Thursday,CHI,Chicago Bears,SEA,Seattle Seahawks,3,6,9,-3,47.0,5.0,outdoors,grass,Soldier Field
+2024_17_LAC_NE,2024,17,2024-12-28,Saturday,NE,New England Patriots,LAC,Los Angeles Chargers,7,40,47,-33,40.0,4.0,outdoors,fieldturf,Gillette Stadium
+2024_17_DEN_CIN,2024,17,2024-12-28,Saturday,CIN,Cincinnati Bengals,DEN,Denver Broncos,30,24,54,6,60.0,8.0,outdoors,fieldturf,Paycor Stadium
+2024_17_NYJ_BUF,2024,17,2024-12-29,Sunday,BUF,Buffalo Bills,NYJ,New York Jets,40,14,54,26,54.0,15.0,outdoors,a_turf,New Era Field
+2024_17_TEN_JAX,2024,17,2024-12-29,Sunday,JAX,Jacksonville Jaguars,TEN,Tennessee Titans,20,13,33,7,72.0,16.0,outdoors,grass,TIAA Bank Stadium
+2024_17_IND_NYG,2024,17,2024-12-29,Sunday,NYG,New York Giants,IND,Indianapolis Colts,45,33,78,12,54.0,0.0,outdoors,fieldturf,MetLife Stadium
+2024_17_DAL_PHI,2024,17,2024-12-29,Sunday,PHI,Philadelphia Eagles,DAL,Dallas Cowboys,41,7,48,34,62.0,10.0,outdoors,grass,Lincoln Financial Field
+2024_17_CAR_TB,2024,17,2024-12-29,Sunday,TB,Tampa Bay Buccaneers,CAR,Carolina Panthers,48,14,62,34,76.0,8.0,outdoors,grass,Raymond James Stadium
+2024_17_MIA_CLE,2024,17,2024-12-29,Sunday,CLE,Cleveland Browns,MIA,Miami Dolphins,3,20,23,-17,54.0,15.0,outdoors,grass,FirstEnergy Stadium
+2024_17_ATL_WAS,2024,17,2024-12-29,Sunday,WAS,Washington Commanders,ATL,Atlanta Falcons,30,24,54,6,58.0,10.0,outdoors,grass,FedExField
+2024_18_CLE_BAL,2024,18,2025-01-04,Saturday,BAL,Baltimore Ravens,CLE,Cleveland Browns,35,10,45,25,31.0,16.0,outdoors,grass,M&T Bank Stadium
+2024_18_CIN_PIT,2024,18,2025-01-04,Saturday,PIT,Pittsburgh Steelers,CIN,Cincinnati Bengals,17,19,36,-2,19.0,10.0,outdoors,grass,Acrisure Stadium
+2024_18_CHI_GB,2024,18,2025-01-05,Sunday,GB,Green Bay Packers,CHI,Chicago Bears,22,24,46,-2,16.0,13.0,outdoors,grass,Lambeau Field
+2024_18_BUF_NE,2024,18,2025-01-05,Sunday,NE,New England Patriots,BUF,Buffalo Bills,23,16,39,7,33.0,14.0,outdoors,fieldturf,Gillette Stadium
+2024_18_NYG_PHI,2024,18,2025-01-05,Sunday,PHI,Philadelphia Eagles,NYG,New York Giants,20,13,33,7,31.0,19.0,outdoors,grass,Lincoln Financial Field
+2024_18_NO_TB,2024,18,2025-01-05,Sunday,TB,Tampa Bay Buccaneers,NO,New Orleans Saints,27,19,46,8,68.0,6.0,outdoors,grass,Raymond James Stadium
+2024_18_HOU_TEN,2024,18,2025-01-05,Sunday,TEN,Tennessee Titans,HOU,Houston Texans,14,23,37,-9,35.0,10.0,outdoors,grass,Nissan Stadium
+2024_18_KC_DEN,2024,18,2025-01-05,Sunday,DEN,Denver Broncos,KC,Kansas City Chiefs,38,0,38,38,28.0,5.0,outdoors,grass,Empower Field at Mile High
+2024_18_MIA_NYJ,2024,18,2025-01-05,Sunday,NYJ,New York Jets,MIA,Miami Dolphins,32,20,52,12,34.0,10.0,outdoors,fieldturf,MetLife Stadium
+2024_19_PIT_BAL,2024,19,2025-01-11,Saturday,BAL,Baltimore Ravens,PIT,Pittsburgh Steelers,28,14,42,14,32.0,12.0,outdoors,grass,M&T Bank Stadium
+2024_19_DEN_BUF,2024,19,2025-01-12,Sunday,BUF,Buffalo Bills,DEN,Denver Broncos,31,7,38,24,32.0,10.0,outdoors,a_turf,New Era Field
+2024_19_GB_PHI,2024,19,2025-01-12,Sunday,PHI,Philadelphia Eagles,GB,Green Bay Packers,22,10,32,12,40.0,6.0,outdoors,grass,Lincoln Financial Field
+2024_19_WAS_TB,2024,19,2025-01-12,Sunday,TB,Tampa Bay Buccaneers,WAS,Washington Commanders,20,23,43,-3,58.0,2.0,outdoors,grass,Raymond James Stadium
+2024_20_HOU_KC,2024,20,2025-01-18,Saturday,KC,Kansas City Chiefs,HOU,Houston Texans,23,14,37,9,23.0,17.0,outdoors,grass,GEHA Field at Arrowhead Stadium
+2024_20_LA_PHI,2024,20,2025-01-19,Sunday,PHI,Philadelphia Eagles,LA,Los Angeles Rams,28,22,50,6,34.0,8.0,outdoors,grass,Lincoln Financial Field
+2024_20_BAL_BUF,2024,20,2025-01-19,Sunday,BUF,Buffalo Bills,BAL,Baltimore Ravens,27,25,52,2,19.0,4.0,outdoors,a_turf,New Era Field
+2024_21_WAS_PHI,2024,21,2025-01-26,Sunday,PHI,Philadelphia Eagles,WAS,Washington Commanders,55,23,78,32,40.0,11.0,outdoors,grass,Lincoln Financial Field
+2024_21_BUF_KC,2024,21,2025-01-26,Sunday,KC,Kansas City Chiefs,BUF,Buffalo Bills,32,29,61,3,31.0,8.0,outdoors,grass,GEHA Field at Arrowhead Stadium

@@ -8,6 +8,7 @@ Run this script to download all the data you need for your project
 
 import nflreadpy as nfl
 import pandas as pd
+import polars as pl
 import os
 
 # Create data directory if it doesn't exist
@@ -25,9 +26,11 @@ seasons = [2020, 2021, 2022, 2023, 2024]
 print("\n1. Downloading NFL schedules (includes weather data)...")
 try:
     schedules = nfl.load_schedules(seasons)
-    schedules.to_csv('nfl_data/schedules.csv', index=False)
+    # Convert Polars to Pandas for easier use
+    schedules_pd = schedules.to_pandas()
+    schedules_pd.to_csv('nfl_data/schedules.csv', index=False)
     print(f"   ✓ Schedules downloaded: {len(schedules)} games")
-    print(f"   Columns include: {', '.join(schedules.columns[:10].tolist())}...")
+    print(f"   Columns include: {', '.join(schedules.columns[:10])}...")
 except Exception as e:
     print(f"   ✗ Error downloading schedules: {e}")
 
@@ -37,9 +40,11 @@ except Exception as e:
 print("\n2. Downloading team information (stadium details)...")
 try:
     teams = nfl.load_teams()
-    teams.to_csv('nfl_data/teams.csv', index=False)
+    # Convert Polars to Pandas for easier use
+    teams_pd = teams.to_pandas()
+    teams_pd.to_csv('nfl_data/teams.csv', index=False)
     print(f"   ✓ Teams downloaded: {len(teams)} teams")
-    print(f"   Columns include: {', '.join(teams.columns.tolist())}")
+    print(f"   Columns include: {', '.join(teams.columns)}")
 except Exception as e:
     print(f"   ✗ Error downloading teams: {e}")
 
@@ -53,7 +58,9 @@ download_pbp = input("   Download play-by-play? (y/n): ").lower() == 'y'
 if download_pbp:
     try:
         pbp = nfl.load_pbp(seasons)
-        pbp.to_csv('nfl_data/play_by_play.csv', index=False)
+        # Convert Polars to Pandas for easier use
+        pbp_pd = pbp.to_pandas()
+        pbp_pd.to_csv('nfl_data/play_by_play.csv', index=False)
         print(f"   ✓ Play-by-play downloaded: {len(pbp)} plays")
     except Exception as e:
         print(f"   ✗ Error downloading play-by-play: {e}")
@@ -69,8 +76,8 @@ print("=" * 60)
 
 # Preview schedules
 print("\n📊 SCHEDULES DATA (first 3 rows):")
-print(schedules.head(3))
-print(f"\nTotal columns: {len(schedules.columns)}")
+print(schedules_pd.head(3))
+print(f"\nTotal columns: {len(schedules_pd.columns)}")
 print(f"Key columns for your analysis:")
 print("  - Weather: temp, wind, weather")
 print("  - Scores: home_score, away_score")
@@ -80,8 +87,8 @@ print("  - Schedule: gameday, weekday")
 
 # Preview teams
 print("\n🏟️  TEAMS DATA (first 3 rows):")
-print(teams.head(3))
-print(f"\nTotal teams: {len(teams)}")
+print(teams_pd.head(3))
+print(f"\nTotal teams: {len(teams_pd)}")
 print(f"Key columns for stadium analysis:")
 print("  - team_abbr, team_name")
 print("  - team_stadium")
@@ -98,9 +105,9 @@ print("=" * 60)
 # Merge schedules with team stadium info
 print("\n4. Creating merged dataset with stadium characteristics...")
 try:
-    # Merge for home team stadium info
-    analysis_data = schedules.merge(
-        teams[['team_abbr', 'team_name', 'team_stadium', 'team_roof', 'team_surface']],
+    # Use pandas dataframes for merging
+    analysis_data = schedules_pd.merge(
+        teams_pd[['team_abbr', 'team_name', 'team_stadium', 'team_roof', 'team_surface']],
         left_on='home_team',
         right_on='team_abbr',
         how='left'
@@ -123,22 +130,22 @@ print("\n" + "=" * 60)
 print("QUICK STATISTICS")
 print("=" * 60)
 
-print(f"\n📈 Seasons covered: {schedules['season'].min()} - {schedules['season'].max()}")
-print(f"📈 Total games: {len(schedules)}")
-print(f"📈 Games with weather data: {schedules['temp'].notna().sum()}")
-print(f"📈 Unique stadiums: {schedules['stadium'].nunique()}")
+print(f"\n📈 Seasons covered: {schedules_pd['season'].min()} - {schedules_pd['season'].max()}")
+print(f"📈 Total games: {len(schedules_pd)}")
+print(f"📈 Games with weather data: {schedules_pd['temp'].notna().sum()}")
+print(f"📈 Unique stadiums: {schedules_pd['stadium'].nunique()}")
 
 # Weather statistics
 print(f"\n🌡️  WEATHER STATS:")
-print(f"   Average temperature: {schedules['temp'].mean():.1f}°F")
-print(f"   Average wind speed: {schedules['wind'].mean():.1f} mph")
-print(f"   Games with precipitation: {schedules['weather'].str.contains('rain|snow', case=False, na=False).sum()}")
+print(f"   Average temperature: {schedules_pd['temp'].mean():.1f}°F")
+print(f"   Average wind speed: {schedules_pd['wind'].mean():.1f} mph")
+print(f"   Games with precipitation: {schedules_pd['weather'].str.contains('rain|snow', case=False, na=False).sum()}")
 
 # Roof type distribution
 print(f"\n🏟️  ROOF TYPE DISTRIBUTION:")
-roof_counts = schedules['roof'].value_counts()
+roof_counts = schedules_pd['roof'].value_counts()
 for roof_type, count in roof_counts.items():
-    print(f"   {roof_type}: {count} games ({count/len(schedules)*100:.1f}%)")
+    print(f"   {roof_type}: {count} games ({count/len(schedules_pd)*100:.1f}%)")
 
 # Home field advantage
 print(f"\n🏠 HOME FIELD ADVANTAGE:")
