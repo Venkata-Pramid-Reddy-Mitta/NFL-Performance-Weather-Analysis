@@ -37,8 +37,8 @@ def collect_weather_data(seasons):
     all_games['home_win'] = (all_games['point_differential'] > 0).astype(int)
     
     # save all games (including domes)
-    all_games.to_csv('nfl_data/weather_data_all_games.csv', index=False)
-    print(f"\nSaved all {len(all_games)} games to nfl_data/weather_data_all_games.csv")
+    all_games.to_csv('weather_data_all_games.csv', index=False)
+    print(f"\nSaved all {len(all_games)} games to weather_data_all_games.csv")
     
     # now filter for outdoor games only (games with actual weather)
     print("\nFiltering for outdoor games with weather data...")
@@ -46,8 +46,8 @@ def collect_weather_data(seasons):
     print(f"Found {len(outdoor)} outdoor games")
     
     # save outdoor only
-    outdoor.to_csv('nfl_data/weather_data_outdoor_only.csv', index=False)
-    print(f"Saved to nfl_data/weather_data_outdoor_only.csv")
+    outdoor.to_csv('weather_data_outdoor_only.csv', index=False)
+    print(f"Saved to weather_data_outdoor_only.csv")
     
     # print some basic stats for outdoor games
     print("\n--- Outdoor Games Summary ---")
