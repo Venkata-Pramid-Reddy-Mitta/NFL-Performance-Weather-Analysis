@@ -24,42 +24,52 @@ def collect_weather_data(seasons):
     df = schedules.to_pandas()
     print(f"Got {len(df)} games total")
     
-    # we only want outdoor games because indoor games don't have weather
-    print("\nFiltering for outdoor games...")
-    outdoor = df[df['temp'].notna()].copy()
-    print(f"Found {len(outdoor)} outdoor games with weather data")
-    
     # pick the columns we need for weather analysis
     cols = ['game_id', 'season', 'week', 'gameday', 'weekday',
             'home_team', 'away_team', 'home_score', 'away_score',
             'temp', 'wind', 'roof', 'surface', 'stadium']
     
-    weather_df = outdoor[cols].copy()
+    all_games = df[cols].copy()
     
-    # add some useful calculated columns
-    weather_df['total_points'] = weather_df['home_score'] + weather_df['away_score']
-    weather_df['point_differential'] = weather_df['home_score'] - weather_df['away_score']
-    weather_df['home_win'] = (weather_df['point_differential'] > 0).astype(int)
+    # add calculated columns to all games
+    all_games['total_points'] = all_games['home_score'] + all_games['away_score']
+    all_games['point_differential'] = all_games['home_score'] - all_games['away_score']
+    all_games['home_win'] = (all_games['point_differential'] > 0).astype(int)
     
-    # save it
-    weather_df.to_csv('nfl_data/weather_data.csv', index=False)
-    print("\nSaved to nfl_data/weather_data.csv")
+    # save all games (including domes)
+    all_games.to_csv('nfl_data/weather_data_all_games.csv', index=False)
+    print(f"\nSaved all {len(all_games)} games to nfl_data/weather_data_all_games.csv")
     
-    # print some basic stats
-    print("\n--- Summary ---")
-    print(f"Total games: {len(weather_df)}")
-    print(f"Seasons covered: {weather_df['season'].min()} to {weather_df['season'].max()}")
-    print(f"Temp range: {weather_df['temp'].min():.0f}F to {weather_df['temp'].max():.0f}F")
-    print(f"Wind range: {weather_df['wind'].min():.0f} to {weather_df['wind'].max():.0f} mph")
-    print(f"Average points per game: {weather_df['total_points'].mean():.1f}")
+    # now filter for outdoor games only (games with actual weather)
+    print("\nFiltering for outdoor games with weather data...")
+    outdoor = all_games[all_games['temp'].notna()].copy()
+    print(f"Found {len(outdoor)} outdoor games")
+    
+    # save outdoor only
+    outdoor.to_csv('nfl_data/weather_data_outdoor_only.csv', index=False)
+    print(f"Saved to nfl_data/weather_data_outdoor_only.csv")
+    
+    # print some basic stats for outdoor games
+    print("\n--- Outdoor Games Summary ---")
+    print(f"Total outdoor games: {len(outdoor)}")
+    print(f"Seasons covered: {outdoor['season'].min()} to {outdoor['season'].max()}")
+    print(f"Temp range: {outdoor['temp'].min():.0f}F to {outdoor['temp'].max():.0f}F")
+    print(f"Wind range: {outdoor['wind'].min():.0f} to {outdoor['wind'].max():.0f} mph")
+    print(f"Average points per game: {outdoor['total_points'].mean():.1f}")
+    
+    # show roof type breakdown
+    print("\n--- Roof Type Breakdown (All Games) ---")
+    for roof, count in all_games['roof'].value_counts().items():
+        print(f"{roof}: {count} games")
+    
     print("\nDone!")
     
-    return weather_df
+    return all_games, outdoor
 
 
 # run it
 if __name__ == "__main__":
     # get data for last 5 seasons
     seasons = [2020, 2021, 2022, 2023, 2024]
-    data = collect_weather_data(seasons)
-    print(f"\nCollected {len(data)} games for analysis")
+    all_data, outdoor_data = collect_weather_data(seasons)
+    print(f"\nCollected {len(all_data)} total games ({len(outdoor_data)} outdoor)")
