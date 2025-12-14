@@ -130,7 +130,7 @@ def enrich_games_with_meteostat(
     -------
     pd.DataFrame
         Input DataFrame with new columns:
-        met_temp_C, met_dewpoint_C, met_humidity_pct, met_prcp_mm, met_windspeed_mps,
+        met_temp_C, met_prcp_mm, met_windspeed_mps,
         met_lat, met_lon, met_source_time_utc
     """
     df = all_games.copy().reset_index(drop=True)
@@ -170,8 +170,6 @@ def enrich_games_with_meteostat(
             "met_lat": np.nan,
             "met_lon": np.nan,
             "met_temp_C": np.nan,
-            "met_dewpoint_C": np.nan,
-            "met_humidity_pct": np.nan,
             "met_prcp_mm": np.nan,
             "met_windspeed_mps": np.nan,
             "met_source_time_utc": pd.NaT,
@@ -249,8 +247,6 @@ def enrich_games_with_meteostat(
             "met_lat": lat,
             "met_lon": lon,
             "met_temp_C": features.get("temp_mean_C", np.nan),
-            "met_dewpoint_C": features.get("dewpoint_C", np.nan),
-            "met_humidity_pct": features.get("rhum_pct", np.nan),
             "met_prcp_mm": features.get("prcp_mean_mm", np.nan),
             "met_windspeed_mps": features.get("wspd_mean_mps", np.nan),
             "met_source_time_utc": features.get("source_time_utc", pd.NaT),
@@ -333,16 +329,6 @@ def _fetch_meteostat_for_point(lat: float, lon: float, kickoff_utc):
         # temp (°C)
         out["temp_mean_C"] = float(
             data["temp"].mean()) if "temp" in data.columns else np.nan
-        # dewpoint
-        out["dewpoint_C"] = float(
-            data["dwpt"].mean()) if "dwpt" in data.columns else np.nan
-        # relative humidity (rhum or rh)
-        if "rhum" in data.columns:
-            out["rhum_pct"] = float(data["rhum"].mean())
-        elif "rh" in data.columns:
-            out["rhum_pct"] = float(data["rh"].mean())
-        else:
-            out["rhum_pct"] = np.nan
         # precipitation (mm) - provide mean
         if "prcp" in data.columns:
             out["prcp_mean_mm"] = float(data["prcp"].mean())
