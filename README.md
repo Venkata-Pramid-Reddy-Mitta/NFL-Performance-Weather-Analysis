@@ -7,3 +7,13 @@
 Our goal is to analyze NFL game performance data using publicly available datasets from nflreadpy and meteostat APIs from 2020 to 2024 seasons.
 
 The datasets include game statistics, weather conditions, venue information, and scheduling details across multiple NFL seasons, providing rich opportunities for visualization.
+
+## Run the project
+
+The project is maintained with **uv**. Run the following commands:
+
+```bash
+uv venv
+uv sync
+```
+Select **.venv** as your kernel in main.ipynb and you are good to go!

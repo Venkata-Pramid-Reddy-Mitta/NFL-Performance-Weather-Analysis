@@ -1,0 +1,20 @@
+[project]
+name = "final-project-the-data-bowl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datetime>=6.0",
+    "geopy>=2.4.1",
+    "holoviews>=1.22.1",
+    "ipykernel>=7.1.0",
+    "jupyter-bokeh>=4.0.5",
+    "meteostat>=1.7.6",
+    "nflreadpy>=0.1.5",
+    "pandas>=2.3.3",
+    "panel>=1.8.4",
+    "pipreqs>=0.5.0",
+    "pyarrow>=22.0.0",
+    "timezonefinder>=8.1.0",
+]
