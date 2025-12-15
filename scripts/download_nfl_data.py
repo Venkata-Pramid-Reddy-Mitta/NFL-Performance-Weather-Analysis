@@ -1,54 +1,35 @@
-"""
-NFL Data Collection Script for Weather, Stadium, and Scheduling Analysis
-"""
-
 import nflreadpy as nfl
 import pandas as pd
 import os
 
-
 def download_nfl_data(seasons=None):
     """
     Downloads NFL schedules and team data, merges them, and returns analysis-ready DataFrame.
-
-    Parameters:
-    -----------
-    seasons : list, optional
-        List of seasons to download (default: [2020, 2021, 2022, 2023, 2024])
-
-    Returns:
-    --------
-    pd.DataFrame
-        Merged dataset with schedules, team info, and calculated metrics
     """
     if seasons is None:
-        seasons = [2020, 2021, 2022, 2023, 2024]
+        seasons = list(range(2000, 2025))
 
     os.makedirs('data', exist_ok=True)
 
-    schedules = None
-    teams = None
+    print(f"Downloading schedules for {len(seasons)} seasons...")
+    schedules = nfl.load_schedules(seasons)
+    
+    print("Downloading team info...")
+    teams = nfl.load_teams()
 
-    try:
-        schedules = nfl.load_schedules(seasons)
+    # --- CRITICAL FIX: Convert Polars/Arrow objects to Pandas ---
+    if hasattr(schedules, 'to_pandas'):
         schedules = schedules.to_pandas()
-        schedules.to_csv('data/schedules.csv', index=False)
-    except Exception as e:
-        raise Exception(f"Error downloading schedules: {e}")
-
-    try:
-        teams = nfl.load_teams()
+        
+    if hasattr(teams, 'to_pandas'):
         teams = teams.to_pandas()
-        teams.to_csv('data/teams.csv', index=False)
-    except Exception as e:
-        raise Exception(f"Error downloading teams: {e}")
-
-    if schedules is None:
-        raise Exception("Failed to download schedules data")
+    # ------------------------------------------------------------
 
     try:
+        # Now this works because we guaranteed it is a pandas DataFrame
         analysis_data = schedules.copy()
 
+        # Merge team names
         if teams is not None:
             team_cols = ['team_abbr', 'team_name']
             available_cols = [col for col in team_cols if col in teams.columns]
@@ -60,13 +41,18 @@ def download_nfl_data(seasons=None):
                     how='left'
                 )
 
-        analysis_data['point_differential'] = analysis_data['home_score'] - \
-            analysis_data['away_score']
-        analysis_data['home_win'] = (
-            analysis_data['point_differential'] > 0).astype(int)
+        # Metrics
+        analysis_data['total_points'] = analysis_data['home_score'] + analysis_data['away_score']
+        analysis_data['point_differential'] = analysis_data['home_score'] - analysis_data['away_score']
+        analysis_data['home_win'] = (analysis_data['point_differential'] > 0).astype(int)
 
+        # Save
         analysis_data.to_csv('data/analysis_ready.csv', index=False)
+        print("Successfully saved data/analysis_ready.csv")
 
         return analysis_data
+        
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         raise Exception(f"Error creating merged dataset: {e}")
