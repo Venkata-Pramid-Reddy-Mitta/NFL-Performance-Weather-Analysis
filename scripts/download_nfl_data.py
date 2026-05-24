@@ -53,6 +53,4 @@ def download_nfl_data(seasons=None):
         return analysis_data
         
     except Exception as e:
-        import traceback
-        traceback.print_exc()
         raise Exception(f"Error creating merged dataset: {e}")

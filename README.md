@@ -1,19 +1,27 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/VuVdyond)
+# NFL Performance & Weather Data Pipeline
 
-# NFL Game Performance Analysis - Final Project
+Analyzed 24 seasons of NFL game data (2000-2024) to investigate 
+how weather conditions impact team performance and tested the 
+popular "cold teams struggle in heat" myth against real data.
 
-## Project Overview
+## Key Findings
+- Warm-weather teams show a 7.7pp win rate drop in extreme cold
+- Cold-weather teams show no meaningful underperformance in heat
+- Verdict: the myth is one-sided, not a full myth
 
-Our goal is to analyze NFL game performance data using publicly available datasets from nflreadpy and meteostat APIs from 2020 to 2024 seasons.
+## Tools & Data Sources
+- Python, Pandas, Matplotlib, Bokeh, Panel
+- nflreadpy (game statistics)
+- Meteostat API (weather data)
 
-The datasets include game statistics, weather conditions, venue information, and scheduling details across multiple NFL seasons, providing rich opportunities for visualization.
+## Project Structure
+- `main.ipynb` — full analysis and visualizations
+- `scripts/download_nfl_data.py` — data ingestion pipeline
+- `scripts/weather_data.py` — weather enrichment via Meteostat
 
-## Run the project
-
-The project is maintained with **uv**. Run the following commands:
-
+## Setup
 ```bash
 uv venv
 uv sync
 ```
-Select **.venv** as your kernel in main.ipynb and you are good to go!
+Select `.venv` as your kernel in `main.ipynb` and run all cells.
