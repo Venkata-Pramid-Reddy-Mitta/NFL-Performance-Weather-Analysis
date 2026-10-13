@@ -1,6 +1,6 @@
 # NFL Performance & Weather Data Pipeline
 
-Analyzed 24 seasons of NFL game data (2000-2024) to investigate 
+Analyzed 25 seasons of NFL game data (2000-2024) to investigate 
 how weather conditions impact team performance and tested the 
 popular "cold teams struggle in heat" myth against real data.
 
@@ -25,3 +25,4 @@ uv venv
 uv sync
 ```
 Select `.venv` as your kernel in `main.ipynb` and run all cells.
+To regenerate the data in `data/`, run `scripts/download_nfl_data.py`, then `scripts/weather_data.py`.
