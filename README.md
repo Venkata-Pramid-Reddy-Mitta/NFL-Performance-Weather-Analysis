@@ -5,7 +5,7 @@ how weather conditions impact team performance and tested the
 popular "cold teams struggle in heat" myth against real data.
 
 ## Key Findings
-- Warm-weather teams show a 7.7pp win rate drop in extreme cold
+- Warm-weather teams show a 7.7pp win rate drop in cold road games (below 40°F)
 - Cold-weather teams show no meaningful underperformance in heat
 - Verdict: the myth is one-sided, not a full myth
 
